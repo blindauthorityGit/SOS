@@ -1,0 +1,150 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #404e5c;
+  font-size: 3.6rem;
+  margin-bottom: 3.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 600;
+  color: #404e5c;
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-weight: 600;
+  color: #404e5c;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-weight: 500;
+  color: #404e5c;
+  font-size: 1.2rem;
+}
+
+body,
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+}
+
+.mainWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 1140px;
+}
+
+.container3 {
+  width: 33.3333%;
+}
+
+.mT-2 {
+  margin-top: -2rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navContainer {
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 58px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero {
+  width: 100%;
+  height: 541px;
+  background-image: url("../img/hero1@2x.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.buttonWrapper {
+  margin-top: 6rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: solid thin #404e5c;
+  border-radius: 100px;
+  color: #404e5c;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.red {
+  border: solid thin #db2f3d;
+  background: #db2f3d;
+  color: white;
+}
+
+.right {
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
