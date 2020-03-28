@@ -1,0 +1,15 @@
+@media all and (max-width: 71rem) {
+  body {
+    background: red;
+  }
+  .container {
+    width: 49rem;
+  }
+  .container3 {
+    width: 50%;
+  }
+  .hero {
+    background-position-x: -8rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

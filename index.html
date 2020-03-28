@@ -8,7 +8,10 @@
             href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900|Open+Sans:400,700&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="./css/animations.css" />
+        <link rel="stylesheet" href="./css/responsive.css" />
         <script src="./js/app.js"></script>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
         <title>SOS | Save our sales!</title>
     </head>
     <body>
@@ -39,17 +42,185 @@
                         nesciunt error sapiente, asperiores officiis doloribus
                     </p>
                     <div class="buttonWrapper">
-                        <a href="" class="btn">Button Link</a>
-                        <a href="" class="btn red right">Button Link</a>
+                        <a href="" class="btn borderBtn">Button Link</a>
+                        <a href="./wp/shop" class="btn red right"
+                            >Button Link</a
+                        >
                     </div>
                 </div>
             </div>
         </div>
         <!-- CONTENT -->
-        <div class="mainWrapper">
+        <div class="mainWrapper mb-5">
             <div class="container">
                 <div class="textCenter">
                     <h2>Save our Salesss!</h2>
+                </div>
+                <div class="tilesWrapper flex justify-content-between">
+                    <div
+                        id="first"
+                        class="tile flex justify-content-center align-items-center"
+                    >
+                        <div class="iconWrap">
+                            <div class="icon cart"></div>
+                        </div>
+                        <!-- <img src="./img/cart.svg" alt="" /> -->
+                        <h4>Heading</h4>
+                        <p class="textCenter">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div
+                        id="second"
+                        class="tile flex justify-content-center align-items-center"
+                    >
+                        <div class="iconWrap">
+                            <div class="icon up"></div>
+                        </div>
+                        <!-- <img src="./img/up.svg" alt="" /> -->
+                        <h4>Heading</h4>
+                        <p class="textCenter">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                    <div
+                        id="third"
+                        class="tile flex justify-content-center align-items-center"
+                    >
+                        <div class="iconWrap">
+                            <div class="icon delivery"></div>
+                        </div>
+                        <!-- <img src="./img/delivery.svg" alt="" /> -->
+                        <h4>Heading</h4>
+                        <p class="textCenter">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RED PART -->
+        <div class="heroRed flex justify-content-center">
+            <div
+                class="container flex align-items-center justify-content-between"
+                id="section2"
+            >
+                <div class="container3 mT-2" id="section2Left">
+                    <h2 class="white">Headline 1</h2>
+                    <p class="white">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet, neque modi blanditiis iusto sit, quisquam
+                        nesciunt error sapiente, asperiores officiis doloribus
+                    </p>
+                    <div class="buttonWrapper">
+                        <a href="" class="btn">Button Link</a>
+                        <a href="" class="btn red right">Button Link</a>
+                    </div>
+                </div>
+                <div class="container7" id="section2Right">
+                    <img src="./img/logo.svg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- OPTIONSPART -->
+        <div class="heroOptions flex justify-content-center">
+            <div class="container flex align-items-center">
+                <div
+                    class="card flex align-items-center justify-content-center"
+                >
+                    <h3>Headline</h3>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_purple.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_purple.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_purple.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_purple.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <a href="" class="btn purple mt-2plus">Mehr Infos</a>
+                </div>
+                <div
+                    class="card flex align-items-center justify-content-center"
+                >
+                    <h3>Headline</h3>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_red.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_red.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_red.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInnerWrapper flex justify-content-center">
+                        <div class="cardLeft flex justify-content-center">
+                            <img src="./img/marker_red.svg" alt="" />
+                        </div>
+                        <div class="cardRight">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                        </div>
+                    </div>
+                    <a href="" class="btn red mt-2plus">Mehr Infos</a>
                 </div>
             </div>
         </div>
