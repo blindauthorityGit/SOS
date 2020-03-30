@@ -1,0 +1,9 @@
+2020-03-30T00:33:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Jet_Engine_Listings_Data::maybe_set_current_object(), 1 passed in C:\xampp2\htdocs\sosgit\wp\wp-includes\class-wp-hook.php on line 288 and exactly 2 expected in C:\xampp2\htdocs\sosgit\wp\wp-content\plugins\jet-engine\includes\components\listings\data.php:90
+Stack trace:
+#0 C:\xampp2\htdocs\sosgit\wp\wp-includes\class-wp-hook.php(288): Jet_Engine_Listings_Data->maybe_set_current_object(Object(WP_Post))
+#1 C:\xampp2\htdocs\sosgit\wp\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp2\htdocs\sosgit\wp\wp-includes\plugin.php(544): WP_Hook->do_action(Array)
+#3 C:\xampp2\htdocs\sosgit\wp\wp-content\plugins\js_composer\include\classes\editors\class-vc-frontend-editor.php(372): do_action_ref_array('the_post', Array)
+#4 C:\xampp2\htdocs\sosgit\wp\wp-content\plugins\js_composer\include\classes\editors\class-vc-frontend-editor.php(156): Vc_Frontend_Editor->setPost()
+#5 C:\xampp2\htdocs\sosgit\wp\wp-includes\class-wp-hook.php(288 in C:\xampp2\htdocs\sosgit\wp\wp-content\plugins\jet-engine\includes\components\listings\data.php in Zeile 90
+

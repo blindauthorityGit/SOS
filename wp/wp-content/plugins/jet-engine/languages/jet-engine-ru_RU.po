@@ -1,0 +1,6038 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JetEngine for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-24 17:53+0200\n"
+"PO-Revision-Date: 2019-10-24 17:53+0200\n"
+"Last-Translator: dev-admin <art@artabr.ru>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:4c,1,2;_n_noop:1,2;"
+"_nx_noop:4c,1,2\n"
+"esc_attr__;_x: 1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: cherry-framework\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: framework\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: includes/base/base-data.php:91 includes/base/base-data.php:159
+#: includes/base/base-data.php:201
+#: includes/components/listings/post-type.php:270
+#: includes/components/meta-boxes/data.php:36
+#: includes/components/post-types/data.php:436
+#: includes/components/relations/data.php:191
+#: includes/dashboard/skins-import.php:40
+msgid "You don't have permissions to do this"
+msgstr "У вас нет для этого прав"
+
+#: includes/base/base-data.php:106
+msgid "Couldn't create item"
+msgstr "Не удалось создать элемент"
+
+#: includes/base/base-data.php:171 includes/components/meta-boxes/data.php:46
+#: includes/components/relations/data.php:201
+msgid "Please provide item ID to delete"
+msgstr "Пожалуйста, предоставьте ID элемента, чтобы удалить"
+
+#: includes/base/base-data.php:216
+msgid "Item ID not passed"
+msgstr "ID элемента не принято"
+
+#: includes/base/base-data.php:229
+msgid "Couldn't update item"
+msgstr "Не удалось обновить элемент"
+
+#: includes/base/base-data.php:264
+msgid "Please set post type slug"
+msgstr "Пожалуйста, установите ярлык типа записи"
+
+#: includes/base/base-data.php:272
+msgid "Please set post type name"
+msgstr "Пожалуйста, установите имя типа записи"
+
+#: includes/base/base-data.php:280
+msgid "Please change post type slug. Current is reserved for WordPress needs"
+msgstr ""
+"Пожалуйста, измените ярлык типа записи, т.к. он уже используется для нужд "
+"WordPress"
+
+#: includes/compatibility/packages/acf.php:59
+msgid "ACF Gallery as WP Gallery"
+msgstr "ACF Галерея в качестве WP галереи"
+
+#: includes/compatibility/packages/acf.php:292
+msgid "ACF"
+msgstr "ACF"
+
+#: includes/compatibility/packages/acf.php:377
+msgid "ACF Field"
+msgstr "ACF поле"
+
+#: includes/compatibility/packages/jet-popup.php:48
+msgid "Jet Engine Listing popup"
+msgstr ""
+
+#: includes/compatibility/packages/jet-popup.php:50
+#: includes/components/elementor-views/document-types/listing-item.php:107
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:197
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:224
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:308
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:324
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:402
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:127
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:193
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:262
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:148
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:215
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:201
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:294
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:530
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:57
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:94
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:150
+#: includes/components/elementor-views/static-widgets/grid.php:80
+#: includes/components/elementor-views/static-widgets/grid.php:137
+#: includes/components/elementor-views/static-widgets/grid.php:150
+#: includes/components/elementor-views/static-widgets/grid.php:165
+#: includes/components/elementor-views/static-widgets/grid.php:764
+#: includes/components/elementor-views/static-widgets/grid.php:1165
+#: includes/components/elementor-views/static-widgets/grid.php:1199
+#: includes/components/elementor-views/static-widgets/grid.php:1238
+#: includes/components/elementor-views/static-widgets/grid.php:1253
+#: includes/components/elementor-views/static-widgets/grid.php:1281
+#: includes/modules/calendar/widget.php:110
+#: includes/modules/calendar/widget.php:155
+#: includes/modules/forms/widgets/booking-form.php:84
+#: includes/modules/forms/widgets/booking-form.php:108
+#: includes/modules/gallery/grid.php:196
+#: includes/modules/gallery/slider.php:351
+#: templates/admin/pages/post-types/edit.php:437
+msgid "Yes"
+msgstr "Да"
+
+#: includes/compatibility/packages/jet-popup.php:51
+#: includes/components/elementor-views/document-types/listing-item.php:108
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:198
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:225
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:309
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:325
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:403
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:128
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:194
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:210
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:263
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:149
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:162
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:216
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:202
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:295
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:531
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:58
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:95
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:151
+#: includes/components/elementor-views/static-widgets/grid.php:81
+#: includes/components/elementor-views/static-widgets/grid.php:138
+#: includes/components/elementor-views/static-widgets/grid.php:151
+#: includes/components/elementor-views/static-widgets/grid.php:166
+#: includes/components/elementor-views/static-widgets/grid.php:765
+#: includes/components/elementor-views/static-widgets/grid.php:1166
+#: includes/components/elementor-views/static-widgets/grid.php:1200
+#: includes/components/elementor-views/static-widgets/grid.php:1239
+#: includes/components/elementor-views/static-widgets/grid.php:1254
+#: includes/components/elementor-views/static-widgets/grid.php:1282
+#: includes/modules/calendar/widget.php:111
+#: includes/modules/calendar/widget.php:156
+#: includes/modules/forms/widgets/booking-form.php:85
+#: includes/modules/forms/widgets/booking-form.php:109
+#: includes/modules/gallery/grid.php:197
+#: includes/modules/gallery/slider.php:352
+#: templates/admin/pages/post-types/edit.php:440
+msgid "No"
+msgstr "Нет"
+
+#: includes/compatibility/packages/meta-box.php:79
+msgid "Meta Box"
+msgstr "Блок метаданных"
+
+#: includes/compatibility/packages/meta-box.php:264
+msgid "Meta Box Field"
+msgstr "Поле блока метаданных"
+
+#: includes/compatibility/packages/woocommerce.php:55
+msgid "Price"
+msgstr "Цена"
+
+#: includes/compatibility/packages/woocommerce.php:61
+msgid "Sale Price"
+msgstr "Цена распродажи"
+
+#: includes/compatibility/packages/woocommerce.php:67
+msgid "SKU"
+msgstr "Артикул"
+
+#: includes/compatibility/packages/woocommerce.php:73
+msgid "Sales"
+msgstr "Продажи"
+
+#: includes/compatibility/packages/woocommerce.php:79
+msgid "Average Rating"
+msgstr "Средний рейтинг"
+
+#: includes/compatibility/packages/woocommerce.php:85
+msgid "Stock Status"
+msgstr "Статус наличия на складе"
+
+#: includes/compatibility/packages/woocommerce.php:91
+msgid "Weight"
+msgstr "Вес"
+
+#: includes/compatibility/packages/woocommerce.php:97
+msgid "Length"
+msgstr "Длина"
+
+#: includes/compatibility/packages/woocommerce.php:103
+#: includes/modules/calendar/widget.php:333
+#: includes/modules/calendar/widget.php:892
+#: includes/modules/forms/widgets/booking-form.php:230
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/compatibility/packages/woocommerce.php:109
+#: includes/modules/calendar/widget.php:350
+#: includes/modules/calendar/widget.php:914
+#: includes/modules/forms/widgets/booking-form.php:118
+msgid "Height"
+msgstr "Высота"
+
+#: includes/compatibility/packages/woocommerce.php:125
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: includes/compatibility/packages/wpml.php:51
+msgid "Listing Grid: Not found message"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:64
+msgid "Field: Date format (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:69
+msgid "Field: Separator for the decimal point (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:74
+msgid "Field: Thousands separator (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:79
+msgid "Field: Field format (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:92
+msgid "Link: Label (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:105
+msgid "Meta: Prefix (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:110
+msgid "Meta: Suffix (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:115
+msgid "Meta: Zero Comments Format (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:120
+msgid "Meta: One Comments Format (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:125
+msgid "Meta: More Comments Format (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:130
+msgid "Meta: Date Format (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:143
+msgid "Terms: Prefix (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:148
+msgid "Terms: Suffix (if used)"
+msgstr ""
+
+#: includes/compatibility/packages/wpml.php:161
+msgid "Repeater: Field format (if used)"
+msgstr ""
+
+#: includes/components/blocks-views/block-types/base.php:84
+msgid "Item renderer class not found"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:88
+msgid "Listing Item Settings"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:96
+msgid "Listing Items CSS"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:128
+msgid "Listing Post Type"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:135
+msgid "Listing Taxonomy"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:140
+msgid "No available settings"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:163
+msgid "You need to reload page after update to apply saved settings"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:186
+msgid ""
+"When targeting your specific element, add <code>selector</code> before the "
+"tags and classes you want to exclusively target, i.e: <code>selector a "
+"{ color: red;}</code>"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:226
+msgid "Other"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:230
+#: includes/components/blocks-views/editor.php:283
+#: includes/components/elementor-views/document-types/listing-item.php:173
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:361
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:502
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:53
+#: includes/components/listings/data.php:487
+msgid "Options"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:249
+#: includes/components/blocks-views/editor.php:263
+#: includes/components/elementor-views/document-types/listing-item.php:163
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:159
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:338
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:346
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:228
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:492
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:252
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:214
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:163
+#: includes/components/elementor-views/static-widgets/grid.php:43
+#: includes/modules/calendar/widget.php:62
+msgid "General"
+msgstr "Общие"
+
+#: includes/components/blocks-views/editor.php:253
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:161
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:340
+msgid "Post thumbnail"
+msgstr "Миниатюра записи"
+
+#: includes/components/blocks-views/editor.php:257
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:341
+msgid "User avatar (works only for user listing and pages)"
+msgstr ""
+
+#: includes/components/blocks-views/editor.php:267
+#: includes/components/elementor-views/document-types/listing-item.php:165
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:348
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:494
+msgid "Permalink"
+msgstr "Постоянная ссылка"
+
+#: includes/components/elementor-views/document-types/listing-item.php:14
+#: includes/components/listings/post-type.php:347
+msgid "Listing Item"
+msgstr "Листинг"
+
+#: includes/components/elementor-views/document-types/listing-item.php:32
+msgid "Listing Settings"
+msgstr "Настройки листинга"
+
+#: includes/components/elementor-views/document-types/listing-item.php:41
+msgid ""
+"<b>Please note:</b> You need to reload page after applying new source, "
+"changing post type or taxonomy. New meta fields and options for dynamic "
+"fields will be applied only after reloading."
+msgstr ""
+"<b>Обратите внимание:</b>Вам необходимо перезагрузить страницу после "
+"применения нового источника, изменения типа записи или таксономии. Новые "
+"метаполя и параметры для динамических полей будут применены только после "
+"перезагрузки."
+
+#: includes/components/elementor-views/document-types/listing-item.php:48
+#: templates/admin/listings-popup.php:14
+msgid "Listing source:"
+msgstr "Источник листинга:"
+
+#: includes/components/elementor-views/document-types/listing-item.php:52
+#: includes/components/meta-boxes/pages/edit.php:141
+#: includes/components/options-pages/pages/edit.php:186
+#: includes/dashboard/skins-import.php:274
+#: templates/admin/listings-popup.php:16
+msgid "Posts"
+msgstr "Записи"
+
+#: includes/components/elementor-views/document-types/listing-item.php:53
+#: includes/components/elementor-views/static-widgets/grid.php:522
+#: includes/dashboard/skins-import.php:309
+#: templates/admin/listings-popup.php:17
+msgid "Terms"
+msgstr "Категории"
+
+#: includes/components/elementor-views/document-types/listing-item.php:54
+#: includes/components/options-pages/pages/edit.php:218
+#: templates/admin/listings-popup.php:18
+msgid "Users"
+msgstr ""
+
+#: includes/components/elementor-views/document-types/listing-item.php:62
+#: templates/admin/listings-popup.php:22
+msgid "From post type:"
+msgstr "Для типа записи:"
+
+#: includes/components/elementor-views/document-types/listing-item.php:74
+#: templates/admin/listings-popup.php:30
+msgid "From taxonomy:"
+msgstr "Для таксономии:"
+
+#: includes/components/elementor-views/document-types/listing-item.php:87
+msgid "Preview Width"
+msgstr "Ширина для предпросмотра"
+
+#: includes/components/elementor-views/document-types/listing-item.php:105
+msgid "Make listing item clickable"
+msgstr ""
+
+#: includes/components/elementor-views/document-types/listing-item.php:119
+msgid "Link source"
+msgstr ""
+
+#: includes/components/elementor-views/document-types/listing-item.php:137
+#: includes/components/elementor-views/dynamic-tags/tags/options-gallery-tag.php:36
+#: includes/components/elementor-views/dynamic-tags/tags/options-image-tag.php:36
+#: includes/components/elementor-views/dynamic-tags/tags/options-tag.php:14
+#: includes/components/elementor-views/dynamic-tags/tags/options-tag.php:43
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:115
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:57
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:155
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:59
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:74
+msgid "Option"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-tags/module.php:25
+#: includes/dashboard/manager.php:41 includes/dashboard/manager.php:42
+#: templates/admin/pages/post-types/list.php:23
+msgid "JetEngine"
+msgstr "JetEngine"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-field-tag.php:14
+msgid "Custom Field"
+msgstr "Кастомное поле"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-field-tag.php:38
+#: includes/components/elementor-views/dynamic-tags/tags/custom-gallery-tag.php:32
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:32
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:428
+#: includes/components/elementor-views/static-widgets/grid.php:505
+#: includes/modules/forms/editor.php:166
+#: templates/admin/pages/meta-boxes/fields.php:49
+msgid "Field"
+msgstr "Поле"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-gallery-tag.php:14
+msgid "JetEngine Gallery"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:14
+msgid "Custom Image"
+msgstr "Кастомное изображение"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:50
+msgid "Queried term thumbnial"
+msgstr "Миниатюра для избранной категории"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:51
+msgid "For taxonomy archives only"
+msgstr "Только для архивов таксономии"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:60
+msgid "Thumbnail meta key"
+msgstr "Мета ключ миниатюры"
+
+#: includes/components/elementor-views/dynamic-tags/tags/custom-image-tag.php:74
+#: includes/components/elementor-views/dynamic-tags/tags/options-image-tag.php:47
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:208
+msgid "Fallback"
+msgstr "Контент в случае отсутствия метаданных"
+
+#: includes/components/elementor-views/dynamic-tags/tags/options-gallery-tag.php:14
+msgid "Gallery from options"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-tags/tags/options-image-tag.php:14
+msgid "Image from options"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:15
+msgid "Dynamic Field"
+msgstr "Dynamic Field"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:35
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:35
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:35
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:38
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:38
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:38
+#: includes/components/listings/data.php:103
+#: includes/modules/forms/widgets/booking-form.php:38
+msgid "Content"
+msgstr "Контент"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:42
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:42
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:44
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:59
+#: includes/components/listings/post-type.php:68
+msgid "Source"
+msgstr "Источник"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:52
+msgid "Object Field"
+msgstr "Поле объекта"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:65
+msgid "Automatically generated excerpt"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:78
+msgid "More string"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:95
+#: templates/forms/admin/form-builder.php:181
+msgid "Meta Field"
+msgstr "Метаполе"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:137
+msgid "Or enter meta field key"
+msgstr "Или вставьте ключ метаполя"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:141
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:181
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:84
+msgid "Note: this filed will override Meta Field value"
+msgstr "Внимание: данные из этого поля изменят значение для исходного метаполя"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:152
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:163
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:104
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:115
+msgid "Field Icon"
+msgstr "Иконка поля"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:175
+msgid "HTML tag"
+msgstr "HTML разметка"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:195
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:260
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:213
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:199
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:148
+msgid "Hide if value is empty"
+msgstr "Скрыть, если значение отсутствует"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:212
+msgid "Show this if field value is empty"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:222
+msgid "Filter field output"
+msgstr "Споcоб вывода поля"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:235
+#: templates/admin/pages/post-types/edit.php:281
+msgid "Callback"
+msgstr "Callback"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:248
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:150
+msgid "Format"
+msgstr "Формат"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:255
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:153
+#: includes/components/post-types/pages/edit.php:180
+msgid "Documentation on date and time formatting"
+msgstr "Документация по форматированию даты и времени"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:262
+msgid "Decimal point"
+msgstr "Разделитель"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:265
+msgid "Sets the separator for the decimal point"
+msgstr "Установить десятичный разделитель"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:276
+msgid "Thousands separator"
+msgstr "Разделитель для тысячных"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:289
+msgid "Decimal points"
+msgstr "Десятичные разделители"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:295
+msgid "Sets the number of visible decimal points"
+msgstr "Установливает число видимых десятичных чисел"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:306
+msgid "Single value"
+msgstr "Одиночное значение"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:322
+msgid "Add links to related posts"
+msgstr "Добавить ссылки к похожим записям"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:338
+msgid "Related list HTML tag"
+msgstr "HTML тэг для списка похожих записей"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:356
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:485
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:82
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:406
+#: includes/components/post-types/pages/edit.php:234
+msgid "Delimiter"
+msgstr "Разделитель"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:369
+msgid "Text if enabled"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:382
+msgid "Text if disabled"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:400
+msgid "Customize field output"
+msgstr "Настроить вывод поля"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:413
+msgid "Field format"
+msgstr "Формат поля"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:416
+#, php-format
+msgid "%s will be replaced with field value"
+msgstr ""
+"%s используется для замены значения поля. Используйте разметку для "
+"форматирования."
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:437
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:624
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:451
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:355
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:386
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:494
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:561
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:209
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:415
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:499
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:547
+#: includes/components/elementor-views/static-widgets/grid.php:1388
+#: includes/components/elementor-views/static-widgets/grid.php:1419
+#: includes/components/elementor-views/static-widgets/grid.php:1792
+#: includes/components/elementor-views/static-widgets/grid.php:1812
+#: includes/components/elementor-views/static-widgets/grid.php:1832
+#: includes/modules/forms/widgets/booking-form.php:139
+#: includes/modules/forms/widgets/booking-form.php:207
+#: includes/modules/forms/widgets/booking-form.php:271
+#: includes/modules/forms/widgets/booking-form.php:369
+#: includes/modules/forms/widgets/booking-form.php:517
+#: includes/modules/forms/widgets/booking-form.php:622
+#: includes/modules/forms/widgets/booking-form.php:769
+#: includes/modules/forms/widgets/booking-form.php:1209
+#: includes/modules/gallery/grid.php:103 includes/modules/gallery/grid.php:123
+#: includes/modules/gallery/slider.php:83
+#: includes/modules/gallery/slider.php:103
+#: includes/modules/gallery/slider.php:227
+#: includes/modules/gallery/slider.php:270
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:456
+msgid "Field content width"
+msgstr "Ширина контента поля"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:460
+msgid "Auto"
+msgstr "Авто"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:461
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:200
+#: includes/modules/forms/widgets/booking-form.php:968
+msgid "Fullwidth"
+msgstr "По ширине"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:473
+msgid "Display"
+msgstr "Формат отображения"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:477
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:132
+msgid "Inline"
+msgstr "В строку"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:478
+msgid "Multiline"
+msgstr "Многострочный"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:486
+msgid "Widget Items Alignment"
+msgstr "Выравнивание элементов виджета"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:492
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:523
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:239
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:188
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:266
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:251
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:177
+#: includes/components/elementor-views/static-widgets/grid.php:1520
+#: includes/components/elementor-views/static-widgets/grid.php:1671
+#: includes/modules/calendar/widget.php:845
+#: includes/modules/calendar/widget.php:871
+#: includes/modules/calendar/widget.php:1132
+#: includes/modules/forms/widgets/booking-form.php:301
+#: includes/modules/forms/widgets/booking-form.php:956
+#: includes/modules/forms/widgets/booking-form.php:1161
+#: includes/modules/forms/widgets/booking-form.php:1237
+msgid "Left"
+msgstr "Слева"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:496
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:527
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:243
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:192
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:270
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:255
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:181
+#: includes/modules/calendar/widget.php:849
+#: includes/modules/calendar/widget.php:875
+#: includes/modules/calendar/widget.php:1136
+#: includes/modules/forms/widgets/booking-form.php:305
+#: includes/modules/forms/widgets/booking-form.php:960
+#: includes/modules/forms/widgets/booking-form.php:1165
+#: includes/modules/forms/widgets/booking-form.php:1241
+msgid "Center"
+msgstr "По центру"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:500
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:531
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:247
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:196
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:274
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:259
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:185
+#: includes/components/elementor-views/static-widgets/grid.php:1521
+#: includes/components/elementor-views/static-widgets/grid.php:1672
+#: includes/modules/calendar/widget.php:853
+#: includes/modules/calendar/widget.php:879
+#: includes/modules/calendar/widget.php:1140
+#: includes/modules/forms/widgets/booking-form.php:309
+#: includes/modules/forms/widgets/booking-form.php:964
+#: includes/modules/forms/widgets/booking-form.php:1169
+#: includes/modules/forms/widgets/booking-form.php:1245
+msgid "Right"
+msgstr "Справа"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:510
+msgid "Icon and field value. Affects to single line field values."
+msgstr "Значение иконки и поля. Влияет на значение полей одной строки."
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:517
+msgid "Field Content Alignment"
+msgstr "Выравнивание контента поля"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:541
+msgid "Field value. Affects to multiline field values."
+msgstr "Значение поля. Влияет на многострочные значения полей."
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:556
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:342
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:386
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:590
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:456
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:621
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:350
+#: includes/modules/calendar/widget.php:276
+#: includes/modules/calendar/widget.php:572
+#: includes/modules/calendar/widget.php:665
+#: includes/modules/calendar/widget.php:953
+#: includes/modules/forms/widgets/booking-form.php:404
+#: includes/modules/forms/widgets/booking-form.php:557
+#: includes/modules/forms/widgets/booking-form.php:702
+#: includes/modules/forms/widgets/booking-form.php:897
+#: includes/modules/forms/widgets/booking-form.php:1132
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:569
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:354
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:398
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:602
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:471
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:505
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:636
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:362
+#: includes/modules/calendar/widget.php:288
+#: includes/modules/calendar/widget.php:965
+#: includes/modules/forms/widgets/booking-form.php:416
+#: includes/modules/forms/widgets/booking-form.php:569
+#: includes/modules/forms/widgets/booking-form.php:714
+#: includes/modules/forms/widgets/booking-form.php:909
+#: includes/modules/forms/widgets/booking-form.php:1144
+#: includes/modules/forms/widgets/booking-form.php:1220
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:583
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:297
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:367
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:411
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:615
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:427
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:592
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:375
+#: includes/modules/calendar/widget.php:301
+#: includes/modules/calendar/widget.php:394
+#: includes/modules/calendar/widget.php:425
+#: includes/modules/calendar/widget.php:932
+#: includes/modules/forms/widgets/booking-form.php:429
+#: includes/modules/forms/widgets/booking-form.php:582
+#: includes/modules/forms/widgets/booking-form.php:727
+#: includes/modules/forms/widgets/booking-form.php:922
+#: includes/modules/forms/widgets/booking-form.php:1001
+msgid "Border"
+msgstr "Граница"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:592
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:306
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:376
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:420
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:624
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:436
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:601
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:384
+#: includes/modules/calendar/widget.php:310
+#: includes/modules/calendar/widget.php:403
+#: includes/modules/calendar/widget.php:434
+#: includes/modules/calendar/widget.php:630
+#: includes/modules/calendar/widget.php:742
+#: includes/modules/calendar/widget.php:941
+#: includes/modules/forms/widgets/booking-form.php:438
+#: includes/modules/forms/widgets/booking-form.php:591
+#: includes/modules/forms/widgets/booking-form.php:736
+#: includes/modules/forms/widgets/booking-form.php:931
+#: includes/modules/forms/widgets/booking-form.php:1010
+msgid "Border Radius"
+msgstr "Скругление углов"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:615
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:64
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:75
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:442
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:200
+msgid "Icon"
+msgstr "Иконка"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:636
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:463
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:221
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:426
+#: includes/components/post-types/pages/edit.php:249
+#: includes/modules/forms/widgets/booking-form.php:780
+msgid "Size"
+msgstr "Размер"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:654
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:481
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:239
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:510
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:558
+#: includes/modules/forms/widgets/booking-form.php:218
+#: includes/modules/forms/widgets/booking-form.php:282
+msgid "Gap"
+msgstr "Отступ"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-field.php:674
+msgid "Misc"
+msgstr "Разное"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:15
+msgid "Dynamic Image"
+msgstr "Dynamic Image"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:78
+msgid "Or enter custom meta field key"
+msgstr "Или введите ключ кастомного метаполя"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:82
+msgid "Note: this filed will override Source value"
+msgstr "Внимание: это поле отменит исходное значение"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:89
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:103
+msgid "Image Size"
+msgstr "Размер изображения"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:96
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:118
+msgid "Note: this option will work only if image stored as attachment ID"
+msgstr ""
+"Внимание: эта опция сработает только в том случае, если изображение будет "
+"сохранено как прикреплённый ID"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:125
+msgid "Linked image"
+msgstr "Изображение со ссылкой"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:137
+msgid "Link Source"
+msgstr "Источник ссылки"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:177
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:80
+msgid "Or enter post meta field key"
+msgstr "Или введите ключ метаполя записи"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:191
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:146
+msgid "Open in new window"
+msgstr "Открыть в новом окне"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:206
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:158
+msgid "Add \"rel\" attr"
+msgstr "Добавить \"rel\" аттрибут"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:211
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:163
+msgid "Alternate"
+msgstr "Alternate"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:212
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:164
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:52
+#: includes/components/elementor-views/static-widgets/grid.php:384
+#: includes/components/post-types/manager.php:609
+msgid "Author"
+msgstr "Автор"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:213
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:165
+msgid "Bookmark"
+msgstr "Bookmark"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:214
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:166
+msgid "External"
+msgstr "External"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:215
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:167
+msgid "Help"
+msgstr "Help"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:216
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:168
+msgid "License"
+msgstr "License"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:217
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:169
+msgid "Next"
+msgstr "Next"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:218
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:170
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:219
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:171
+msgid "Noreferrer"
+msgstr "Noreferrer"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:220
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:172
+msgid "Noopener"
+msgstr "Noopener"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:221
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:173
+msgid "Prev"
+msgstr "Prev"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:222
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:174
+msgid "Search"
+msgstr "Search"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:223
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:175
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:234
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:183
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:261
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:246
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:666
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:172
+#: includes/modules/forms/widgets/booking-form.php:951
+#: includes/modules/forms/widgets/booking-form.php:1156
+#: includes/modules/forms/widgets/booking-form.php:1232
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:273
+msgid "Fallback Image"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:274
+msgid "This image will be shown if selected source field is empty"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-image.php:287
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:15
+msgid "Dynamic Link"
+msgstr "Dynamic Link"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:91
+#: templates/admin/pages/meta-boxes/fields.php:25
+#: templates/admin/pages/meta-boxes/fields.php:262
+msgid "Label"
+msgstr "Ярлык"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:94
+msgid "Read More"
+msgstr "Читать далее"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:95
+msgid "You can use next macros in this field: "
+msgstr "Вы можете использовать следующие макросы в этом поле: "
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:127
+msgid "HTML wrapper"
+msgstr "HTML обертка"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:247
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:308
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:512
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:348
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:278
+#: includes/components/elementor-views/static-widgets/grid.php:1381
+#: includes/components/elementor-views/static-widgets/grid.php:1785
+#: includes/modules/calendar/widget.php:452
+#: includes/modules/calendar/widget.php:768
+#: includes/modules/forms/widgets/booking-form.php:811
+#: includes/modules/gallery/slider.php:216
+msgid "Normal"
+msgstr "Стандарт"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:262
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:302
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:326
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:357
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:530
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:561
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:293
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:321
+#: includes/modules/calendar/widget.php:459
+#: includes/modules/calendar/widget.php:491
+#: includes/modules/calendar/widget.php:553
+#: includes/modules/calendar/widget.php:775
+#: includes/modules/calendar/widget.php:806
+#: includes/modules/forms/widgets/booking-form.php:829
+#: includes/modules/forms/widgets/booking-form.php:860
+#: includes/modules/forms/widgets/booking-form.php:1042
+#: includes/modules/forms/widgets/booking-form.php:1095
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:273
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:313
+msgid "Icon Color"
+msgstr "Цвет иконки"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:287
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:339
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:543
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:379
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:306
+#: includes/components/elementor-views/static-widgets/grid.php:1412
+#: includes/components/elementor-views/static-widgets/grid.php:1805
+#: includes/modules/calendar/widget.php:484
+#: includes/modules/forms/widgets/booking-form.php:842
+#: includes/modules/gallery/slider.php:259
+msgid "Hover"
+msgstr "При наведении"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:324
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:368
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:572
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:408
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:332
+#: includes/modules/calendar/widget.php:513
+#: includes/modules/calendar/widget.php:597
+#: includes/modules/calendar/widget.php:731
+#: includes/modules/forms/widgets/booking-form.php:871
+#: includes/modules/forms/widgets/booking-form.php:1053
+#: includes/modules/forms/widgets/booking-form.php:1106
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:396
+msgid "Icon Position"
+msgstr "Положение иконки"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:400
+msgid "Before Label"
+msgstr "Перед ярлыком"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:401
+msgid "After Label"
+msgstr "После ярлыка"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:412
+msgid "Icon Size"
+msgstr "Размер иконки"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:430
+#: includes/components/elementor-views/dynamic-widgets/dynamic-link.php:451
+msgid "Icon Gap"
+msgstr "Отступ от иконки"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:18
+msgid "Dynamic Meta"
+msgstr "Dynamic Meta"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:47
+#: includes/components/elementor-views/static-widgets/grid.php:224
+#: includes/components/elementor-views/static-widgets/grid.php:387
+#: includes/components/elementor-views/static-widgets/grid.php:619
+#: includes/components/elementor-views/static-widgets/grid.php:874
+#: includes/components/elementor-views/static-widgets/grid.php:1017
+#: templates/admin/pages/meta-boxes/fields.php:279
+#: templates/admin/pages/post-types/edit.php:239
+msgid "Type"
+msgstr "Тип"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:51
+#: includes/components/elementor-views/static-widgets/grid.php:388
+#: includes/components/listings/data.php:102
+#: includes/components/meta-boxes/pages/edit.php:85
+#: includes/modules/forms/manager.php:236
+msgid "Date"
+msgstr "Дата"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:53
+#: includes/components/options-pages/pages/edit.php:202
+#: includes/components/post-types/manager.php:597
+msgid "Comments"
+msgstr "Комментарии"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:87
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:646
+#: templates/admin/pages/post-types/edit.php:313
+msgid "Prefix"
+msgstr "Префикс"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:96
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:693
+#: templates/admin/pages/post-types/edit.php:322
+msgid "Suffix"
+msgstr "Суффикс"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:128
+#: includes/modules/calendar/widget.php:231
+#: includes/modules/forms/widgets/booking-form.php:487
+#: templates/admin/pages/meta-boxes/fields.php:84
+msgid "Layout"
+msgstr "Макет"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:133
+msgid "List"
+msgstr "Список"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:143
+msgid "Date Settings"
+msgstr "Настройки даты"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:160
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:183
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:206
+msgid "Link"
+msgstr "Ссылка"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:164
+msgid "Archive"
+msgstr "Archive"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:165
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:188
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:210
+#: templates/admin/pages/meta-boxes/edit.php:28
+msgid "Post"
+msgstr "Запись"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:166
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:189
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:211
+#: includes/components/elementor-views/static-widgets/grid.php:382
+#: includes/components/elementor-views/static-widgets/grid.php:740
+msgid "None"
+msgstr "Отсутствует"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:176
+msgid "Author Settings"
+msgstr "Настройки автора"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:187
+msgid "Author Archives"
+msgstr "Архивы автора"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:199
+msgid "Comments Settings"
+msgstr "Настройки комментариев"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:219
+msgid "Zero Comments Format"
+msgstr "Формат отсутствия комментариев"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:229
+msgid "One Comments Format"
+msgstr "Формат одного комментария"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:239
+msgid "More Comments Format"
+msgstr "Формат большего количества комментариев"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:243
+#, php-format
+msgid "Use % for comments number"
+msgstr "Использовать  % f - вместо количества комментариев"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:289
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:283
+msgid "Items"
+msgstr "Элементы"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:315
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:346
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:519
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:550
+#: includes/modules/calendar/widget.php:246
+#: includes/modules/calendar/widget.php:471
+#: includes/modules/calendar/widget.php:502
+#: includes/modules/calendar/widget.php:542
+#: includes/modules/calendar/widget.php:654
+#: includes/modules/calendar/widget.php:786
+#: includes/modules/calendar/widget.php:817
+#: includes/modules/forms/widgets/booking-form.php:393
+#: includes/modules/forms/widgets/booking-form.php:546
+#: includes/modules/forms/widgets/booking-form.php:691
+#: includes/modules/forms/widgets/booking-form.php:818
+#: includes/modules/forms/widgets/booking-form.php:849
+#: includes/modules/forms/widgets/booking-form.php:1031
+#: includes/modules/forms/widgets/booking-form.php:1084
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:501
+msgid "Items Value"
+msgstr "Значение элементов"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:655
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:702
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:444
+msgid "Left Gap"
+msgstr "Отступ слева"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:673
+#: includes/components/elementor-views/dynamic-widgets/dynamic-meta.php:720
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:462
+msgid "Right Gap"
+msgstr "Отступ справа"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:18
+msgid "Dynamic Repeater"
+msgstr "Dynamic Repeater"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:46
+msgid ""
+"<b>Note</b> this widget could process only repeater meta fields created with "
+"JetThemeCore or ACF plugins"
+msgstr ""
+"<b>Внимание</b> этот виджет может обрабатывать только метаполя формата "
+"Repeater созданные с помощью плагинов JetThemeCore или ACF"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:95
+msgid "Item format"
+msgstr "Формат элемента"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:98
+msgid "You can render repeater fields values with macros %repeater field name%"
+msgstr ""
+"Вы можете отображать значение полей Repeater с использованием макроса "
+"%заголовок поля Repeater%"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:105
+msgid "Item HTML tag"
+msgstr "HTML тэг элемента"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:119
+msgid "Items delimiter"
+msgstr "Разделитель элементов"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:128
+msgid "Before items markup"
+msgstr "Разметка перед элементами"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:131
+msgid "HTML to output before repeater items"
+msgstr "HTML  перед элементами Repeater"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:138
+msgid "After items markup"
+msgstr "Разметка после элементов"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:141
+msgid "HTML to output after repeater items"
+msgstr "HTML после элементов Repeater"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:148
+msgid "Add counter to repeater items"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:157
+msgid "Add leding zero before counter items"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:169
+msgid "Text after counter number"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:182
+msgid "Position"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:186
+msgid "Above items"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:187
+msgid "At the left of the items"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:188
+msgid "At the right of the items"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:223
+msgid "Direction"
+msgstr "Направление"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:228
+#: includes/modules/forms/widgets/booking-form.php:492
+#: templates/admin/pages/meta-boxes/fields.php:91
+msgid "Horizontal"
+msgstr "Горизонтальное"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:232
+#: includes/modules/forms/widgets/booking-form.php:496
+#: templates/admin/pages/meta-boxes/fields.php:95
+msgid "Vertical"
+msgstr "Вертикальное"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:292
+msgid "Fixed item size"
+msgstr "Фиксированый размер элемента"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:304
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:540
+msgid "Item Width"
+msgstr "Ширина элемента"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:325
+msgid "Item Height"
+msgstr "Высота элемента"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:366
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:397
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:580
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:519
+msgid "Counters"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:528
+msgid "Fixed counter box size"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:648
+msgid "Counter depth"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:670
+msgid "Left/Top"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:674
+msgid "Center/Middle"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:678
+msgid "Right/Bottom"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-repeater.php:682
+msgid "Stretch"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:18
+msgid "Dynamic Terms"
+msgstr "Dynamic Terms"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:45
+msgid "From taxonomy"
+msgstr "Из таксономии"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:55
+msgid "Show all terms"
+msgstr "Показать все категории"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:67
+msgid "Terms number to show"
+msgstr "Показывать количество категорий"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:91
+msgid "Linked terms"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:92
+msgid "Terms labels are linked to term archive page"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:105
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:116
+msgid "Terms Icon"
+msgstr "Иконка категорий"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:128
+msgid "Text before terms list"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:138
+msgid "Text after terms list"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:259
+#: includes/modules/forms/widgets/booking-form.php:190
+#: templates/admin/pages/post-types/edit.php:52
+#: templates/admin/pages/taxonomies/edit.php:57
+msgid "Labels"
+msgstr "Ярлыки"
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:482
+msgid "Text before"
+msgstr ""
+
+#: includes/components/elementor-views/dynamic-widgets/dynamic-terms.php:530
+msgid "Text after"
+msgstr ""
+
+#: includes/components/elementor-views/manager.php:176
+#: includes/components/listings/post-type.php:185
+msgid ""
+"You need an <b>Elementor Page Builder</b> plugin to create and edit listing "
+"items"
+msgstr ""
+"Для создания и редактирования листингов необходим плагин <b>Elementor Page "
+"Builder</b>"
+
+#: includes/components/elementor-views/manager.php:180
+#: includes/components/listings/post-type.php:189
+msgid "Install Elementor Page Builder"
+msgstr "Установить Elementor Page Builder"
+
+#: includes/components/elementor-views/manager.php:267
+msgid "Listing Elements"
+msgstr "Listing Elements"
+
+#: includes/components/elementor-views/manager.php:371
+msgid ""
+"Please install <a href=\"https://wordpress.org/plugins/elementor/\" target="
+"\"_blank\">Elementor page builder</a> to manage listings layout"
+msgstr ""
+"Пожалуйста, установите <a href=\"https://wordpress.org/plugins/elementor/\" "
+"target=\"_blank\">Elementor page builder</a> для управления макетами "
+"листингов"
+
+#: includes/components/elementor-views/manager.php:372
+msgid "Elementor missed"
+msgstr "Не хватает Elementor"
+
+#: includes/components/elementor-views/manager.php:381
+msgid "Incorrect template type. Please try again."
+msgstr "Неправильный тип шаблона. Пожалуйста, попытайтесь снова."
+
+#: includes/components/elementor-views/manager.php:382
+#: includes/components/listings/post-type.php:271
+#: includes/components/listings/post-type.php:292
+#: includes/modules/forms/widgets/booking-form.php:1077
+msgid "Error"
+msgstr "Ошибка"
+
+#: includes/components/elementor-views/static-widgets/grid.php:23
+msgid "Listing Grid"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:50
+#: includes/modules/calendar/widget.php:69
+msgid "Listing"
+msgstr "Листинг"
+
+#: includes/components/elementor-views/static-widgets/grid.php:60
+msgid "Columns Number"
+msgstr "Количество колонок"
+
+#: includes/components/elementor-views/static-widgets/grid.php:77
+msgid "Use as Archive Template"
+msgstr "Использовать как Archive Template"
+
+#: includes/components/elementor-views/static-widgets/grid.php:90
+msgid "Status"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:94
+#: includes/components/elementor-views/static-widgets/grid.php:329
+msgid "Publish"
+msgstr "Publish"
+
+#: includes/components/elementor-views/static-widgets/grid.php:95
+#: includes/components/elementor-views/static-widgets/grid.php:333
+msgid "Future"
+msgstr "Future"
+
+#: includes/components/elementor-views/static-widgets/grid.php:96
+#: includes/components/elementor-views/static-widgets/grid.php:331
+msgid "Draft"
+msgstr "Draft"
+
+#: includes/components/elementor-views/static-widgets/grid.php:97
+msgid "Pending Review"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:98
+#: includes/components/elementor-views/static-widgets/grid.php:334
+msgid "Private"
+msgstr "Private"
+
+#: includes/components/elementor-views/static-widgets/grid.php:110
+msgid "Posts number"
+msgstr "Количество записей"
+
+#: includes/components/elementor-views/static-widgets/grid.php:125
+msgid "Not found message"
+msgstr "Сообщение в случае отсутствия данных"
+
+#: includes/components/elementor-views/static-widgets/grid.php:127
+msgid "No data was found"
+msgstr "Данные не найдены"
+
+#: includes/components/elementor-views/static-widgets/grid.php:135
+msgid "Is masonry grid"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:147
+msgid "Equal columns height"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:149
+msgid "Fits only top level sections of grid item"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:163
+msgid "Load more"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:175
+msgid "Load more element ID"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:196
+msgid "Posts Query"
+msgstr "Запрос записей"
+
+#: includes/components/elementor-views/static-widgets/grid.php:204
+#: includes/components/elementor-views/static-widgets/grid.php:700
+msgid "Set advanced query parameters"
+msgstr "Задать расширенные параметры query"
+
+#: includes/components/elementor-views/static-widgets/grid.php:212
+#: includes/components/elementor-views/static-widgets/grid.php:709
+msgid ""
+"You select <b>Use as Archive Template</b> option, so other query parameters "
+"will be ignored"
+msgstr ""
+"Вы выбираете опцию <b>Использовать как Archive Template</b>, поэтому другие "
+"параметры будут проигнорированы"
+
+#: includes/components/elementor-views/static-widgets/grid.php:228
+msgid "Posts Parameters"
+msgstr "Параметры записей"
+
+#: includes/components/elementor-views/static-widgets/grid.php:229
+msgid "Order & Offset"
+msgstr "Порядок и оффсет"
+
+#: includes/components/elementor-views/static-widgets/grid.php:230
+msgid "Tax Query"
+msgstr "Query таксономий"
+
+#: includes/components/elementor-views/static-widgets/grid.php:231
+#: includes/components/elementor-views/static-widgets/grid.php:818
+#: includes/components/elementor-views/static-widgets/grid.php:958
+msgid "Meta Query"
+msgstr "Query метаданных"
+
+#: includes/components/elementor-views/static-widgets/grid.php:232
+msgid "Date Query"
+msgstr "Query по дате"
+
+#: includes/components/elementor-views/static-widgets/grid.php:240
+#: includes/modules/forms/widgets/booking-form.php:59
+msgid "Column"
+msgstr "Колонка"
+
+#: includes/components/elementor-views/static-widgets/grid.php:244
+msgid "Post date"
+msgstr "Дата записи"
+
+#: includes/components/elementor-views/static-widgets/grid.php:245
+msgid "Post date GMT"
+msgstr "Дата записи GMT"
+
+#: includes/components/elementor-views/static-widgets/grid.php:246
+msgid "Post modified"
+msgstr "Дата изменения записи"
+
+#: includes/components/elementor-views/static-widgets/grid.php:247
+msgid "Post modified GMT"
+msgstr "Дата изменения записи GMT"
+
+#: includes/components/elementor-views/static-widgets/grid.php:258
+msgid "After"
+msgstr "После"
+
+#: includes/components/elementor-views/static-widgets/grid.php:261
+msgid "Date to retrieve posts after. Accepts strtotime()-compatible string"
+msgstr ""
+"Дата, после которой отображать записи. Работает с strtotime()-compatible "
+"string"
+
+#: includes/components/elementor-views/static-widgets/grid.php:272
+msgid "Before"
+msgstr "До"
+
+#: includes/components/elementor-views/static-widgets/grid.php:275
+msgid "Date to retrieve posts before. Accepts strtotime()-compatible string"
+msgstr ""
+"Дата, до которой отображать записи. Работает с strtotime()-compatible string"
+
+#: includes/components/elementor-views/static-widgets/grid.php:286
+msgid "Include posts by IDs"
+msgstr "Включить записи по ID"
+
+#: includes/components/elementor-views/static-widgets/grid.php:289
+#: includes/components/elementor-views/static-widgets/grid.php:315
+msgid "Eg. 12, 24, 33"
+msgstr "Например: 12, 24, 33"
+
+#: includes/components/elementor-views/static-widgets/grid.php:299
+msgid "Exclude posts by IDs"
+msgstr "Исключить записи по ID"
+
+#: includes/components/elementor-views/static-widgets/grid.php:302
+msgid ""
+"Eg. 12, 24, 33. If this is used in the same query as Include posts by IDs, "
+"it will be ignored"
+msgstr ""
+"Например: 12, 24, 33. Если используется в одном и том же запросе, что и "
+"включенные записи по ID, то будет проигнорировано"
+
+#: includes/components/elementor-views/static-widgets/grid.php:312
+msgid "Get child of"
+msgstr "Отображать дочерние записи для"
+
+#: includes/components/elementor-views/static-widgets/grid.php:325
+msgid "Get posts with status"
+msgstr "Отображать записи со статусом"
+
+#: includes/components/elementor-views/static-widgets/grid.php:330
+msgid "Pending"
+msgstr "Pending"
+
+#: includes/components/elementor-views/static-widgets/grid.php:332
+msgid "Auto draft"
+msgstr "Auto draft"
+
+#: includes/components/elementor-views/static-widgets/grid.php:335
+msgid "Trash"
+msgstr "Trash"
+
+#: includes/components/elementor-views/static-widgets/grid.php:336
+msgid "Any"
+msgstr "Любые"
+
+#: includes/components/elementor-views/static-widgets/grid.php:347
+msgid "Posts offset"
+msgstr "Отступ записей"
+
+#: includes/components/elementor-views/static-widgets/grid.php:362
+#: includes/components/elementor-views/static-widgets/grid.php:748
+msgid "Order"
+msgstr "Порядок"
+
+#: includes/components/elementor-views/static-widgets/grid.php:366
+#: includes/components/elementor-views/static-widgets/grid.php:752
+msgid "ASC"
+msgstr "ASC"
+
+#: includes/components/elementor-views/static-widgets/grid.php:367
+#: includes/components/elementor-views/static-widgets/grid.php:753
+msgid "DESC"
+msgstr "DESC"
+
+#: includes/components/elementor-views/static-widgets/grid.php:378
+msgid "Order by"
+msgstr "Упорядочить по"
+
+#: includes/components/elementor-views/static-widgets/grid.php:383
+#: includes/components/listings/data.php:122
+msgid "ID"
+msgstr "ID"
+
+#: includes/components/elementor-views/static-widgets/grid.php:385
+#: includes/components/listings/data.php:101
+#: includes/components/post-types/manager.php:589
+#: templates/admin/pages/post-types/edit.php:230
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/components/elementor-views/static-widgets/grid.php:386
+#: includes/components/elementor-views/static-widgets/grid.php:510
+#: includes/components/elementor-views/static-widgets/grid.php:733
+#: templates/admin/pages/meta-boxes/fields.php:271
+#: templates/admin/pages/relations/edit.php:15
+#: templates/admin/pages/relations/list.php:11
+msgid "Name"
+msgstr "Имя"
+
+#: includes/components/elementor-views/static-widgets/grid.php:389
+msgid "Modified"
+msgstr "Дата изменения"
+
+#: includes/components/elementor-views/static-widgets/grid.php:390
+#: includes/components/elementor-views/static-widgets/grid.php:738
+msgid "Parent"
+msgstr "Родительская запись"
+
+#: includes/components/elementor-views/static-widgets/grid.php:391
+msgid "Rand"
+msgstr "В случайном порядке"
+
+#: includes/components/elementor-views/static-widgets/grid.php:392
+msgid "Comment count"
+msgstr "Количество комментариев"
+
+#: includes/components/elementor-views/static-widgets/grid.php:393
+msgid "Relevance"
+msgstr "Актуальность"
+
+#: includes/components/elementor-views/static-widgets/grid.php:394
+msgid "Menu order"
+msgstr "Порядок меню"
+
+#: includes/components/elementor-views/static-widgets/grid.php:395
+msgid "Meta value"
+msgstr "Значение метаданных"
+
+#: includes/components/elementor-views/static-widgets/grid.php:396
+msgid "Meta clause"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:397
+msgid "Preserve post ID order given in the \"Include posts by IDs\" option"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:408
+msgid "Meta key to order"
+msgstr "Введите мета ключ чтоб упорядочить"
+
+#: includes/components/elementor-views/static-widgets/grid.php:412
+msgid "Set meta field name to order by"
+msgstr ""
+"Введите имя мета ключа для того чтобы упорядочить посты используя его "
+"значения"
+
+#: includes/components/elementor-views/static-widgets/grid.php:423
+msgid "Meta clause to order"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:427
+msgid ""
+"Meta clause name to order by. Clause with this name should be created in "
+"Meta Query parameters"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:438
+msgid "Meta type"
+msgstr "Тип метаданных"
+
+#: includes/components/elementor-views/static-widgets/grid.php:442
+#: includes/components/elementor-views/static-widgets/grid.php:1867
+msgid "NUMERIC"
+msgstr "NUMERIC"
+
+#: includes/components/elementor-views/static-widgets/grid.php:443
+#: includes/components/elementor-views/static-widgets/grid.php:1869
+msgid "CHAR"
+msgstr "CHAR"
+
+#: includes/components/elementor-views/static-widgets/grid.php:444
+#: includes/components/elementor-views/static-widgets/grid.php:1870
+msgid "DATE"
+msgstr "DATE"
+
+#: includes/components/elementor-views/static-widgets/grid.php:445
+#: includes/components/elementor-views/static-widgets/grid.php:1871
+msgid "DATETIME"
+msgstr "DATETIME"
+
+#: includes/components/elementor-views/static-widgets/grid.php:446
+#: includes/components/elementor-views/static-widgets/grid.php:1872
+msgid "DECIMAL"
+msgstr "DECIMAL"
+
+#: includes/components/elementor-views/static-widgets/grid.php:458
+#: templates/admin/pages/meta-boxes/edit.php:32
+#: templates/admin/pages/post-types/edit.php:265
+msgid "Taxonomy"
+msgstr "Таксономия"
+
+#: includes/components/elementor-views/static-widgets/grid.php:471
+msgid "Taxonomy from meta field"
+msgstr "Таксономия из метаполя"
+
+#: includes/components/elementor-views/static-widgets/grid.php:475
+msgid "Get taxonomy name from current page meta field"
+msgstr "Получить имя таксономии из метаполя текущей страницы"
+
+#: includes/components/elementor-views/static-widgets/grid.php:486
+#: includes/components/elementor-views/static-widgets/grid.php:561
+#: includes/components/elementor-views/static-widgets/grid.php:838
+#: includes/components/elementor-views/static-widgets/grid.php:978
+#: includes/modules/listing-injections/listing-injections.php:476
+msgid "Operator"
+msgstr "Оператор"
+
+#: includes/components/elementor-views/static-widgets/grid.php:489
+msgid "IN"
+msgstr "IN"
+
+#: includes/components/elementor-views/static-widgets/grid.php:490
+msgid "NOT IN"
+msgstr "NOT IN"
+
+#: includes/components/elementor-views/static-widgets/grid.php:491
+#: includes/components/elementor-views/static-widgets/grid.php:660
+#: includes/components/elementor-views/static-widgets/grid.php:673
+#: includes/components/elementor-views/static-widgets/grid.php:898
+#: includes/components/elementor-views/static-widgets/grid.php:1044
+msgid "AND"
+msgstr "AND"
+
+#: includes/components/elementor-views/static-widgets/grid.php:492
+msgid "EXISTS"
+msgstr "EXISTS"
+
+#: includes/components/elementor-views/static-widgets/grid.php:493
+msgid "NOT EXISTS"
+msgstr "NOT EXISTS"
+
+#: includes/components/elementor-views/static-widgets/grid.php:508
+#: includes/components/elementor-views/static-widgets/grid.php:736
+msgid "Term ID"
+msgstr "ID категории"
+
+#: includes/components/elementor-views/static-widgets/grid.php:509
+#: includes/components/elementor-views/static-widgets/grid.php:734
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/components/elementor-views/static-widgets/grid.php:535
+msgid "Terms from meta field"
+msgstr "Категории из метаполей"
+
+#: includes/components/elementor-views/static-widgets/grid.php:539
+msgid "Get terms IDs from current page meta field"
+msgstr "Получить ID категорий из метаполей текущей страницы"
+
+#: includes/components/elementor-views/static-widgets/grid.php:549
+#: includes/components/elementor-views/static-widgets/grid.php:829
+#: includes/components/elementor-views/static-widgets/grid.php:969
+#: includes/modules/listing-injections/listing-injections.php:464
+msgid "Key (name/ID)"
+msgstr "Ключ (имя/ID)"
+
+#: includes/components/elementor-views/static-widgets/grid.php:565
+#: includes/components/elementor-views/static-widgets/grid.php:842
+#: includes/components/elementor-views/static-widgets/grid.php:982
+#: includes/modules/listing-injections/listing-injections.php:480
+msgid "Equal"
+msgstr "Equal"
+
+#: includes/components/elementor-views/static-widgets/grid.php:566
+#: includes/components/elementor-views/static-widgets/grid.php:843
+#: includes/components/elementor-views/static-widgets/grid.php:983
+#: includes/modules/listing-injections/listing-injections.php:481
+msgid "Not equal"
+msgstr "Not equal"
+
+#: includes/components/elementor-views/static-widgets/grid.php:567
+#: includes/components/elementor-views/static-widgets/grid.php:844
+#: includes/components/elementor-views/static-widgets/grid.php:984
+#: includes/modules/listing-injections/listing-injections.php:482
+msgid "Greater than"
+msgstr "Greater than"
+
+#: includes/components/elementor-views/static-widgets/grid.php:568
+#: includes/components/elementor-views/static-widgets/grid.php:845
+#: includes/components/elementor-views/static-widgets/grid.php:985
+#: includes/modules/listing-injections/listing-injections.php:483
+msgid "Greater or equal"
+msgstr "Greater or equal"
+
+#: includes/components/elementor-views/static-widgets/grid.php:569
+#: includes/components/elementor-views/static-widgets/grid.php:846
+#: includes/components/elementor-views/static-widgets/grid.php:986
+#: includes/modules/listing-injections/listing-injections.php:484
+msgid "Less than"
+msgstr "Less than"
+
+#: includes/components/elementor-views/static-widgets/grid.php:570
+#: includes/components/elementor-views/static-widgets/grid.php:847
+#: includes/components/elementor-views/static-widgets/grid.php:987
+#: includes/modules/listing-injections/listing-injections.php:485
+msgid "Equal or less"
+msgstr "Equal or less"
+
+#: includes/components/elementor-views/static-widgets/grid.php:571
+#: includes/components/elementor-views/static-widgets/grid.php:848
+#: includes/components/elementor-views/static-widgets/grid.php:988
+#: includes/modules/listing-injections/listing-injections.php:486
+msgid "Like"
+msgstr "Like"
+
+#: includes/components/elementor-views/static-widgets/grid.php:572
+#: includes/components/elementor-views/static-widgets/grid.php:849
+#: includes/components/elementor-views/static-widgets/grid.php:989
+#: includes/modules/listing-injections/listing-injections.php:487
+msgid "Not like"
+msgstr "Not like"
+
+#: includes/components/elementor-views/static-widgets/grid.php:573
+#: includes/components/elementor-views/static-widgets/grid.php:850
+#: includes/components/elementor-views/static-widgets/grid.php:990
+#: includes/modules/listing-injections/listing-injections.php:488
+msgid "In"
+msgstr "In"
+
+#: includes/components/elementor-views/static-widgets/grid.php:574
+#: includes/components/elementor-views/static-widgets/grid.php:851
+#: includes/components/elementor-views/static-widgets/grid.php:991
+#: includes/modules/listing-injections/listing-injections.php:489
+msgid "Not in"
+msgstr "Not in"
+
+#: includes/components/elementor-views/static-widgets/grid.php:575
+#: includes/components/elementor-views/static-widgets/grid.php:852
+#: includes/components/elementor-views/static-widgets/grid.php:992
+#: includes/modules/listing-injections/listing-injections.php:490
+msgid "Between"
+msgstr "Between"
+
+#: includes/components/elementor-views/static-widgets/grid.php:576
+#: includes/components/elementor-views/static-widgets/grid.php:853
+#: includes/components/elementor-views/static-widgets/grid.php:993
+#: includes/modules/listing-injections/listing-injections.php:491
+msgid "Not between"
+msgstr "Not between"
+
+#: includes/components/elementor-views/static-widgets/grid.php:577
+#: includes/components/elementor-views/static-widgets/grid.php:854
+#: includes/components/elementor-views/static-widgets/grid.php:994
+msgid "Exists"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:578
+#: includes/components/elementor-views/static-widgets/grid.php:855
+#: includes/components/elementor-views/static-widgets/grid.php:995
+msgid "Not Exists"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:589
+#: includes/components/elementor-views/static-widgets/grid.php:863
+#: includes/components/elementor-views/static-widgets/grid.php:1003
+#: includes/modules/listing-injections/listing-injections.php:502
+msgid "Value"
+msgstr "Значение"
+
+#: includes/components/elementor-views/static-widgets/grid.php:593
+#: includes/components/elementor-views/static-widgets/grid.php:867
+#: includes/components/elementor-views/static-widgets/grid.php:1007
+#: includes/modules/listing-injections/listing-injections.php:506
+msgid ""
+"For <b>In</b>, <b>Not in</b>, <b>Between</b> and <b>Not between</b> compare "
+"separate multiple values with comma"
+msgstr ""
+"Для <b>In</b>, <b>Not in</b>, <b>Between</b> и <b>Not between</b>сравнений "
+"задайте отдельные значения через запятую"
+
+#: includes/components/elementor-views/static-widgets/grid.php:604
+msgid "Or get value from query variable"
+msgstr "Или получите значение из переменной запроса"
+
+#: includes/components/elementor-views/static-widgets/grid.php:608
+msgid ""
+"Set query variable name (from URL or WordPress query var) to get value from"
+msgstr ""
+"Задайте имя переменной запроса (из URL или запроса WordPress var), чтобы "
+"получить ее значение"
+
+#: includes/components/elementor-views/static-widgets/grid.php:632
+msgid "Meta Query Clause"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:636
+msgid ""
+"Set unique name for current query clause to use it to order posts by this "
+"clause"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:656
+#: includes/components/elementor-views/static-widgets/grid.php:894
+#: includes/components/elementor-views/static-widgets/grid.php:1040
+msgid "Meta query relation"
+msgstr "Отношение мета-запросов"
+
+#: includes/components/elementor-views/static-widgets/grid.php:661
+#: includes/components/elementor-views/static-widgets/grid.php:674
+#: includes/components/elementor-views/static-widgets/grid.php:899
+#: includes/components/elementor-views/static-widgets/grid.php:1045
+msgid "OR"
+msgstr "OR"
+
+#: includes/components/elementor-views/static-widgets/grid.php:669
+msgid "Tax query relation"
+msgstr "Отношение запросов категорий"
+
+#: includes/components/elementor-views/static-widgets/grid.php:692
+msgid "Terms Query"
+msgstr "Query категорий"
+
+#: includes/components/elementor-views/static-widgets/grid.php:719
+msgid "Get terms of posts"
+msgstr "Получить категории записей"
+
+#: includes/components/elementor-views/static-widgets/grid.php:729
+msgid "Order By"
+msgstr "Упорядочить по"
+
+#: includes/components/elementor-views/static-widgets/grid.php:735
+msgid "Term Group"
+msgstr "Группа категорий"
+
+#: includes/components/elementor-views/static-widgets/grid.php:737
+#: templates/admin/pages/meta-boxes/fields.php:324
+#: templates/admin/pages/taxonomies/edit.php:158
+msgid "Description"
+msgstr "Описание"
+
+#: includes/components/elementor-views/static-widgets/grid.php:739
+msgid "Count"
+msgstr "Количество"
+
+#: includes/components/elementor-views/static-widgets/grid.php:761
+msgid "Hide empty"
+msgstr "Скрывать в случае отсутствия данных"
+
+#: includes/components/elementor-views/static-widgets/grid.php:774
+msgid "Include terms"
+msgstr "Включить категории"
+
+#: includes/components/elementor-views/static-widgets/grid.php:778
+msgid "Comma/space-separated string of term ids to include"
+msgstr ""
+"Чтобы включить, введите ID категорий в одну строку, разделяя их запятой / "
+"пробелом"
+
+#: includes/components/elementor-views/static-widgets/grid.php:785
+msgid "Exclude terms"
+msgstr "Исключить категории"
+
+#: includes/components/elementor-views/static-widgets/grid.php:789
+msgid ""
+"Comma/space-separated string of term ids to exclude. Ignore if <b>Include "
+"terms</b> not empty"
+msgstr ""
+"Чтобы исключить, введите ID категорий в одну строку, разделяя их запятой / "
+"пробелом. Игнорировать, если поле <b>Включить категории</b> не пустое"
+
+#: includes/components/elementor-views/static-widgets/grid.php:796
+msgid "Offset"
+msgstr "Оффсет"
+
+#: includes/components/elementor-views/static-widgets/grid.php:808
+msgid "Child of"
+msgstr "Дочерний элемент"
+
+#: includes/components/elementor-views/static-widgets/grid.php:811
+msgid "Term ID to retrieve child terms of"
+msgstr "ID категорий, чтобы отображать дочерние категории"
+
+#: includes/components/elementor-views/static-widgets/grid.php:909
+msgid "Users Query"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:916
+msgid "Roles"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:927
+msgid "Exclude roles"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:938
+msgid "Include users by ID"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:940
+#: includes/components/elementor-views/static-widgets/grid.php:950
+msgid "Comma-separated ID's list"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:948
+msgid "Exclude users by ID"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1059
+msgid "Widget Visibility"
+msgstr "Видимость виджета"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1064
+msgid "Always show"
+msgstr "Всегда показывать"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1065
+msgid "Query is empty"
+msgstr "Пустое Query"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1071
+msgid "Hide widget if"
+msgstr "Скрывать виджет если"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1091
+#: includes/modules/gallery/grid.php:159
+msgid "Columns"
+msgstr "Колонки"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1100
+msgid "Horizontal Gap"
+msgstr "Горизонтальный отступ"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1118
+msgid "Vertical Gap"
+msgstr "Вертикальный отступ"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1145
+#: includes/components/elementor-views/static-widgets/grid.php:1334
+msgid "Slider"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1153
+msgid "Slider settings are disabled for masonry layout"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1163
+msgid "Enable Slider"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1178
+msgid "Slides to Scroll"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1197
+msgid "Show Arrows Navigation"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1212
+msgid "Arrow Icon"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1216
+msgid "Angle"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1217
+msgid "Chevron"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1218
+msgid "Angle Double"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1219
+msgid "Arrow"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1220
+msgid "Caret"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1221
+msgid "Long Arrow"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1222
+msgid "Arrow Circle"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1223
+msgid "Chevron Circle"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1224
+msgid "Caret Square"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1236
+msgid "Show Dots Navigation"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1251
+msgid "Autoplay"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1266
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1279
+msgid "Infinite Loop"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1294
+msgid "Effect"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1298
+msgid "Slide"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1299
+msgid "Fade"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1311
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1343
+#: includes/modules/gallery/slider.php:170
+msgid "Slider arrows box size"
+msgstr "Размер ячейки стрелок слайдера"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1361
+#: includes/modules/gallery/slider.php:192
+msgid "Slider arrows size"
+msgstr "Размер стрелок слайдера"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1399
+#: includes/components/elementor-views/static-widgets/grid.php:1430
+#: includes/modules/gallery/slider.php:242
+#: includes/modules/gallery/slider.php:285
+msgid "Background"
+msgstr "Фон"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1445
+#: includes/components/elementor-views/static-widgets/grid.php:1596
+msgid "Vertical Position by"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1449
+#: includes/components/elementor-views/static-widgets/grid.php:1600
+#: includes/modules/forms/widgets/booking-form.php:329
+msgid "Top"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1450
+#: includes/components/elementor-views/static-widgets/grid.php:1601
+#: includes/modules/forms/widgets/booking-form.php:337
+msgid "Bottom"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1458
+#: includes/components/elementor-views/static-widgets/grid.php:1609
+msgid "Top Indent"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1487
+#: includes/components/elementor-views/static-widgets/grid.php:1638
+msgid "Bottom Indent"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1516
+#: includes/components/elementor-views/static-widgets/grid.php:1667
+msgid "Horizontal Position by"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1529
+#: includes/components/elementor-views/static-widgets/grid.php:1680
+msgid "Left Indent"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1558
+#: includes/components/elementor-views/static-widgets/grid.php:1709
+msgid "Right Indent"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1587
+msgid "Next Arrow Position"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1738
+msgid "Dots Styles"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1747
+msgid "Dots Size"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1765
+msgid "Dots Gap"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1825
+msgid "Active"
+msgstr ""
+
+#: includes/components/elementor-views/static-widgets/grid.php:1868
+msgid "BINARY"
+msgstr "BINARY"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1873
+msgid "SIGNED"
+msgstr "SIGNED"
+
+#: includes/components/elementor-views/static-widgets/grid.php:1874
+msgid "UNSIGNED"
+msgstr "UNSIGNED"
+
+#: includes/components/elementor-views/static-widgets/grid.php:2576
+msgid "Please select listing to show."
+msgstr "Пожалуйста, выберите листинг для отображения."
+
+#: includes/components/listings/data.php:104
+#: includes/components/post-types/manager.php:613
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: includes/components/listings/data.php:112
+msgid "Term name"
+msgstr "Заголовок категории"
+
+#: includes/components/listings/data.php:113
+msgid "Term description"
+msgstr "Описание категории"
+
+#: includes/components/listings/data.php:114
+msgid "Posts count"
+msgstr "Количество записей"
+
+#: includes/components/listings/data.php:123
+msgid "Login"
+msgstr ""
+
+#: includes/components/listings/data.php:124
+msgid "Nickname"
+msgstr ""
+
+#: includes/components/listings/data.php:125
+msgid "E-mail"
+msgstr ""
+
+#: includes/components/listings/data.php:126
+#: includes/modules/forms/manager.php:143
+msgid "URL"
+msgstr ""
+
+#: includes/components/listings/data.php:127
+msgid "Registration Date"
+msgstr ""
+
+#: includes/components/listings/data.php:128
+msgid "Display Name"
+msgstr ""
+
+#: includes/components/listings/data.php:482
+msgid "Post/Term/User Data"
+msgstr ""
+
+#: includes/components/listings/data.php:483
+msgid "Meta Data"
+msgstr "Метаданные"
+
+#: includes/components/listings/manager.php:210
+#: includes/components/listings/manager.php:215 includes/core/functions.php:70
+#: includes/modules/calendar/widget.php:142
+msgid "Full"
+msgstr "Полный"
+
+#: includes/components/listings/manager.php:299
+msgid "Format date"
+msgstr "Форматирование  даты"
+
+#: includes/components/listings/manager.php:300
+msgid "Format date (localized)"
+msgstr ""
+
+#: includes/components/listings/manager.php:301
+msgid "Format number"
+msgstr "Форматирование числа"
+
+#: includes/components/listings/manager.php:302
+msgid "Get post/page link (only URL)"
+msgstr ""
+
+#: includes/components/listings/manager.php:303
+msgid "Get post/page link (linked title)"
+msgstr ""
+
+#: includes/components/listings/manager.php:304
+msgid "Get term link"
+msgstr "Вставить ссылку на категорию"
+
+#: includes/components/listings/manager.php:305
+msgid "Embed URL"
+msgstr "Вставить URL-адрес"
+
+#: includes/components/listings/manager.php:306
+msgid "Make clickable"
+msgstr "Сделать активным при клике"
+
+#: includes/components/listings/manager.php:307
+msgid "Embed icon from Iconpicker"
+msgstr "Вставить иконку из Iconpicker"
+
+#: includes/components/listings/manager.php:308
+msgid "Multiple select field values"
+msgstr "Множественные значения полей формата select"
+
+#: includes/components/listings/manager.php:309
+msgid "Checkbox field values"
+msgstr "Значения поля чекбокса"
+
+#: includes/components/listings/manager.php:310
+msgid "Switcher field values"
+msgstr ""
+
+#: includes/components/listings/manager.php:311
+msgid "ACF Checkbox field values"
+msgstr ""
+
+#: includes/components/listings/manager.php:312
+msgid "Get post titles from IDs"
+msgstr "Получить заголовки записи из ID"
+
+#: includes/components/listings/manager.php:313
+msgid "Related posts list"
+msgstr "Список похожих записей"
+
+#: includes/components/listings/manager.php:314
+msgid "Get image by ID"
+msgstr "Получить изображение по ID"
+
+#: includes/components/listings/manager.php:315
+msgid "Do shortcodes"
+msgstr ""
+
+#: includes/components/listings/post-type.php:74
+msgid "For post type/taxonomy"
+msgstr ""
+
+#: includes/components/listings/post-type.php:291
+msgid "Can't create template. Please try again"
+msgstr "Не удалось создать шаблон. Пожалуйста, попытайтесь снова"
+
+#: includes/components/listings/post-type.php:310
+msgid "Listing view instance is not found"
+msgstr ""
+
+#: includes/components/listings/post-type.php:346
+msgid "Listing Items"
+msgstr "Листинги"
+
+#: includes/components/listings/post-type.php:348
+#: includes/components/meta-boxes/pages/list.php:41
+#: includes/components/options-pages/pages/list.php:41
+#: includes/components/post-types/manager.php:433
+#: includes/components/post-types/pages/list.php:43
+#: includes/components/relations/pages/list.php:41
+#: includes/components/taxonomies/pages/list.php:41
+#: includes/modules/forms/editor.php:433
+#: templates/admin/pages/post-types/edit.php:212
+msgid "Add New"
+msgstr "Создать"
+
+#: includes/components/listings/post-type.php:349
+#: includes/components/listings/post-type.php:351
+#: includes/components/post-types/manager.php:440
+#: includes/modules/forms/editor.php:436
+msgid "Add New Item"
+msgstr "Добавить новую"
+
+#: includes/components/listings/post-type.php:350
+#: includes/components/post-types/manager.php:454
+msgid "Edit Item"
+msgstr "Редактировать"
+
+#: includes/components/listings/post-type.php:352
+#: includes/components/post-types/manager.php:461
+#: includes/components/taxonomies/manager.php:251
+msgid "View Item"
+msgstr "Просмотреть"
+
+#: includes/components/listings/post-type.php:353
+msgid "Search Item"
+msgstr "Найти листинг"
+
+#: includes/components/listings/post-type.php:354
+msgid "No Templates Found"
+msgstr "Шаблоны не найдены"
+
+#: includes/components/listings/post-type.php:355
+msgid "No Templates Found In Trash"
+msgstr "Шаблоны не найдены в корзине"
+
+#: includes/components/listings/post-type.php:356
+msgid "My Library"
+msgstr "Моя библиотека"
+
+#: includes/components/listings/post-type.php:385
+#: includes/components/listings/post-type.php:386
+#: includes/dashboard/skins-import.php:245
+msgid "Listings"
+msgstr "Листинги"
+
+#: includes/components/listings/render/dynamic-field.php:152
+msgid ""
+"<strong>Warning:</strong> Error appears on callback applying. Please select "
+"other callback to filter field value."
+msgstr ""
+"<strong>Предупреждение:</strong> Возникает ошибка при использовании "
+"callback. Выберите другой callback, для вывода значения поля."
+
+#: includes/components/listings/render/dynamic-meta.php:368
+msgid ""
+"Dynamic Meta widget allowed only for Posts listing source or in Post context"
+msgstr ""
+
+#: includes/components/listings/render/dynamic-terms.php:145
+msgid ""
+"Dynamic Terms widget allowed only for Posts listing source or in Post context"
+msgstr ""
+"Виджет динамических категорий может применяться только для листингов записей "
+"или в контексте записи"
+
+#: includes/components/meta-boxes/manager.php:201
+msgid "(User fields)"
+msgstr ""
+
+#: includes/components/meta-boxes/manager.php:258
+msgid "Default user fields"
+msgstr ""
+
+#: includes/components/meta-boxes/manager.php:262
+#: includes/modules/forms/editor.php:248
+msgid "First Name"
+msgstr ""
+
+#: includes/components/meta-boxes/manager.php:267
+#: includes/modules/forms/editor.php:249
+msgid "Last Name"
+msgstr ""
+
+#: includes/components/meta-boxes/manager.php:272
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/components/meta-boxes/manager.php:446
+#: includes/dashboard/skins-import.php:104
+msgid "Meta Boxes"
+msgstr "Метабоксы"
+
+#: includes/components/meta-boxes/manager.php:483
+msgid "Please, set meta box title"
+msgstr ""
+
+#: includes/components/meta-boxes/manager.php:484
+#: includes/components/relations/manager.php:580
+msgid "Meta box updated"
+msgstr ""
+
+#: includes/components/meta-boxes/pages/edit.php:38
+msgid "Edit Meta Box"
+msgstr "Редактировать блок метаданных"
+
+#: includes/components/meta-boxes/pages/edit.php:40
+msgid "Add New Meta Box"
+msgstr "Добавить новый блок метаданных"
+
+#: includes/components/meta-boxes/pages/edit.php:69
+msgid "Meta fields"
+msgstr ""
+
+#: includes/components/meta-boxes/pages/edit.php:70
+msgid "New Meta Field"
+msgstr "Новое метаполе"
+
+#: includes/components/meta-boxes/pages/edit.php:81
+#: includes/modules/forms/manager.php:141
+#: includes/modules/forms/manager.php:229
+msgid "Text"
+msgstr "Text"
+
+#: includes/components/meta-boxes/pages/edit.php:89
+#: includes/modules/forms/manager.php:237
+msgid "Time"
+msgstr "Time"
+
+#: includes/components/meta-boxes/pages/edit.php:93
+msgid "Datetime"
+msgstr "Datetime"
+
+#: includes/components/meta-boxes/pages/edit.php:97
+#: includes/modules/forms/manager.php:230
+msgid "Textarea"
+msgstr "Textarea"
+
+#: includes/components/meta-boxes/pages/edit.php:101
+msgid "WYSIWYG"
+msgstr "WYSIWYG"
+
+#: includes/components/meta-boxes/pages/edit.php:105
+msgid "Switcher"
+msgstr "Switcher"
+
+#: includes/components/meta-boxes/pages/edit.php:109
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: includes/components/meta-boxes/pages/edit.php:113
+msgid "Iconpicker"
+msgstr "Iconpicker"
+
+#: includes/components/meta-boxes/pages/edit.php:117
+#: includes/components/options-pages/pages/edit.php:190
+msgid "Media"
+msgstr "Media"
+
+#: includes/components/meta-boxes/pages/edit.php:121
+msgid "Gallery"
+msgstr "Gallery"
+
+#: includes/components/meta-boxes/pages/edit.php:125
+#: includes/modules/forms/manager.php:234
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/components/meta-boxes/pages/edit.php:129
+msgid "Repeater"
+msgstr "Repeater"
+
+#: includes/components/meta-boxes/pages/edit.php:133
+#: includes/modules/forms/manager.php:232
+msgid "Select"
+msgstr "Select"
+
+#: includes/components/meta-boxes/pages/edit.php:137
+msgid "Colorpicker"
+msgstr "Colorpicker"
+
+#: includes/components/meta-boxes/pages/edit.php:193
+msgid "Update Meta Box"
+msgstr "Обновить блок метаданных"
+
+#: includes/components/meta-boxes/pages/edit.php:196
+msgid "Add Meta Box"
+msgstr "Добавить блок метаданных"
+
+#: includes/components/meta-boxes/pages/edit.php:211
+msgid "How to create a custom meta field. Custom meta field types overview"
+msgstr ""
+
+#: includes/components/meta-boxes/pages/edit.php:215
+msgid ""
+"How to group the custom meta fields for the certain post types into meta "
+"boxes"
+msgstr ""
+
+#: includes/components/meta-boxes/pages/edit.php:219
+msgid "How to create Checkbox type meta field and display it in Listing Grid"
+msgstr ""
+
+#: includes/components/meta-boxes/pages/list.php:62
+msgid "Meta Boxes List"
+msgstr ""
+
+#: includes/components/meta-boxes/post.php:38
+#: includes/components/options-pages/pages/edit.php:226
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/components/meta-boxes/post.php:193
+#: includes/components/meta-boxes/post.php:195
+#: includes/components/options-pages/options-page.php:437
+#: includes/components/options-pages/options-page.php:439
+msgid "Name: "
+msgstr "Заголовок:"
+
+#: includes/components/meta-boxes/post.php:508
+msgid "name: "
+msgstr "name: "
+
+#: includes/components/meta-boxes/rest-api/delete-meta-box.php:31
+#: includes/components/meta-boxes/rest-api/edit-meta-box.php:34
+#: includes/components/meta-boxes/rest-api/get-meta-box.php:31
+#: includes/components/options-pages/rest-api/delete-options-page.php:33
+#: includes/components/options-pages/rest-api/edit-options-page.php:34
+#: includes/components/options-pages/rest-api/get-options-page.php:31
+#: includes/components/post-types/rest-api/delete-post-type.php:34
+#: includes/components/post-types/rest-api/edit-post-type.php:34
+#: includes/components/post-types/rest-api/get-post-type.php:31
+#: includes/components/relations/rest-api/delete-relation.php:31
+#: includes/components/relations/rest-api/edit-relation.php:34
+#: includes/components/relations/rest-api/get-relation.php:31
+#: includes/components/taxonomies/rest-api/delete-taxonomy.php:33
+#: includes/components/taxonomies/rest-api/edit-taxonomy.php:34
+#: includes/components/taxonomies/rest-api/get-taxonomy.php:31
+msgid "Item ID not found in request"
+msgstr ""
+
+#: includes/components/meta-boxes/rest-api/get-meta-box.php:47
+#: includes/components/post-types/data.php:543
+#: includes/components/post-types/rest-api/get-post-type.php:47
+msgid "Post type not found"
+msgstr ""
+
+#: includes/components/options-pages/manager.php:250
+#: includes/components/options-pages/pages/list.php:62
+msgid "Options Pages"
+msgstr ""
+
+#: includes/components/options-pages/manager.php:290
+msgid "Please, set page title"
+msgstr ""
+
+#: includes/components/options-pages/manager.php:291
+msgid "Please, set page slug"
+msgstr ""
+
+#: includes/components/options-pages/manager.php:292
+msgid "Page updated"
+msgstr ""
+
+#: includes/components/options-pages/manager.php:297
+msgid "Creating an Options page with JetEngine"
+msgstr ""
+
+#: includes/components/options-pages/options-page.php:231
+msgid "Saved"
+msgstr ""
+
+#: includes/components/options-pages/options-page.php:304
+#: templates/admin/pages/dashboard/main.php:39
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/components/options-pages/pages/edit.php:38
+msgid "Edit Options Page"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:40
+msgid "Add New Options Page"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:69
+#: includes/modules/forms/widgets/booking-form.php:352
+msgid "Fields"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:70
+msgid "New Field"
+msgstr "Новое поле"
+
+#: includes/components/options-pages/pages/edit.php:104
+msgid "Update Page"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:107
+msgid "Add Page"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:139
+msgid "Manage options"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:143
+msgid "Activate plugins"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:147
+msgid "Create users"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:151
+msgid "Switch themes"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:155
+msgid "Edit pages"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:159
+msgid "Edit posts"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:163
+msgid "Upload files"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:178
+msgid "Dashboard"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:182
+msgid "First Separator"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:194
+msgid "Links"
+msgstr "Ссылки"
+
+#: includes/components/options-pages/pages/edit.php:198
+msgid "Pages"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:206
+msgid "Second Separator"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:210
+msgid "Appearance"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:214
+msgid "Plugins"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:222
+msgid "Tools"
+msgstr ""
+
+#: includes/components/options-pages/pages/edit.php:230
+msgid "Third Separator"
+msgstr ""
+
+#: includes/components/options-pages/rest-api/delete-options-page.php:49
+#: includes/components/post-types/rest-api/delete-post-type.php:50
+#: includes/components/taxonomies/rest-api/delete-taxonomy.php:49
+msgid "Item data not found"
+msgstr ""
+
+#: includes/components/options-pages/rest-api/get-options-page.php:47
+msgid "Page not found"
+msgstr ""
+
+#: includes/components/post-types/data.php:446
+msgid ""
+"Post type name not found in request. Please check your data and try again."
+msgstr ""
+
+#: includes/components/post-types/manager.php:404
+msgid "Meta Value"
+msgstr ""
+
+#: includes/components/post-types/manager.php:408
+msgid "Post Terms"
+msgstr ""
+
+#: includes/components/post-types/manager.php:412
+msgid "Custom Callback"
+msgstr ""
+
+#: includes/components/post-types/manager.php:426
+#: includes/components/taxonomies/manager.php:223
+msgid "Singular name"
+msgstr ""
+
+#: includes/components/post-types/manager.php:427
+msgid "Name for one object of this post type"
+msgstr ""
+
+#: includes/components/post-types/manager.php:434
+msgid ""
+"The add new text. The default is `Add New` for both hierarchical and non-"
+"hierarchical post types"
+msgstr ""
+
+#: includes/components/post-types/manager.php:436
+#: includes/components/post-types/manager.php:443
+#: includes/components/taxonomies/manager.php:268
+msgid "Add New %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:441
+msgid "Default is Add New Post/Add New Page"
+msgstr ""
+
+#: includes/components/post-types/manager.php:447
+msgid "New Item"
+msgstr "Новая запись"
+
+#: includes/components/post-types/manager.php:448
+msgid "Default is New Post/New Page"
+msgstr ""
+
+#: includes/components/post-types/manager.php:450
+msgid "New %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:455
+msgid "Default is Edit Post/Edit Page"
+msgstr ""
+
+#: includes/components/post-types/manager.php:457
+#: includes/components/taxonomies/manager.php:247
+msgid "Edit %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:462
+msgid "Default is View Post/View Page"
+msgstr ""
+
+#: includes/components/post-types/manager.php:464
+#: includes/components/taxonomies/manager.php:254
+msgid "View %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:468
+msgid "All Items"
+msgstr "Все записи"
+
+#: includes/components/post-types/manager.php:469
+msgid "String for the submenu"
+msgstr ""
+
+#: includes/components/post-types/manager.php:471
+#: includes/components/taxonomies/manager.php:240
+msgid "All %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:475
+msgid "Search for items"
+msgstr "Искать по записям"
+
+#: includes/components/post-types/manager.php:476
+msgid "Default is Search Posts/Search Pages"
+msgstr ""
+
+#: includes/components/post-types/manager.php:478
+msgid "Search for %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:482
+msgid "Parent Item"
+msgstr "Родительская запись"
+
+#: includes/components/post-types/manager.php:483
+msgid ""
+"This string isn`t used on non-hierarchical types. In hierarchical ones the "
+"default is `Parent Page:`"
+msgstr ""
+
+#: includes/components/post-types/manager.php:485
+#: includes/components/post-types/manager.php:492
+#: includes/components/taxonomies/manager.php:282
+msgid "Parent %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:489
+msgid "Not found"
+msgstr ""
+
+#: includes/components/post-types/manager.php:490
+msgid "Default is No posts found/No pages found"
+msgstr ""
+
+#: includes/components/post-types/manager.php:496
+msgid "Not found in trash"
+msgstr ""
+
+#: includes/components/post-types/manager.php:497
+msgid "Default is No posts found in Trash/No pages found in Trash"
+msgstr ""
+
+#: includes/components/post-types/manager.php:499
+#, php-format
+msgid "No %s% found in trash"
+msgstr ""
+
+#: includes/components/post-types/manager.php:503
+msgid "Admin Menu"
+msgstr ""
+
+#: includes/components/post-types/manager.php:504
+msgid "Default is the same as `name`"
+msgstr ""
+
+#: includes/components/post-types/manager.php:506
+#: includes/components/post-types/manager.php:513
+#: includes/components/post-types/manager.php:548
+msgid "%s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:510
+msgid "Add New on Toolbar"
+msgstr "Опция добавления новой публикации в дешборде"
+
+#: includes/components/post-types/manager.php:511
+msgid "String for use in New in Admin menu bar"
+msgstr ""
+
+#: includes/components/post-types/manager.php:517
+#: includes/components/post-types/manager.php:520
+msgid "Featured Image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:518
+msgid "Default is Featured Image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:524
+msgid "Set Featured Image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:525
+msgid "Default is Set featured image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:527
+msgid "Set featured image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:531
+msgid "Remove Featured Image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:532
+msgid "Default is Remove featured image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:534
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:538
+msgid "Use Featured Image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:539
+msgid "Default is Use as featured image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:541
+msgid "Use featured image"
+msgstr ""
+
+#: includes/components/post-types/manager.php:545
+msgid "The post type archive label used in nav menus"
+msgstr "Название архива типа записи в навигационном меню"
+
+#: includes/components/post-types/manager.php:546
+msgid "String for use with archives in nav menus"
+msgstr ""
+
+#: includes/components/post-types/manager.php:552
+msgid "Insert into post"
+msgstr ""
+
+#: includes/components/post-types/manager.php:553
+msgid "String for the media frame button"
+msgstr ""
+
+#: includes/components/post-types/manager.php:555
+msgid "Insert into %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:559
+msgid "Uploaded to this post"
+msgstr ""
+
+#: includes/components/post-types/manager.php:560
+msgid "String for the media frame filter"
+msgstr ""
+
+#: includes/components/post-types/manager.php:562
+msgid "Uploaded to this %s%"
+msgstr ""
+
+#: includes/components/post-types/manager.php:593
+msgid "Editor"
+msgstr "Редактор"
+
+#: includes/components/post-types/manager.php:601
+msgid "Revisions"
+msgstr "Исправления"
+
+#: includes/components/post-types/manager.php:605
+msgid "Trackbacks"
+msgstr "Обратные ссылки"
+
+#: includes/components/post-types/manager.php:617
+msgid "Page Attributes"
+msgstr "Атрибуты страницы"
+
+#: includes/components/post-types/manager.php:621
+msgid "Thumbnail (Featured Image)"
+msgstr "Миниатюра"
+
+#: includes/components/post-types/manager.php:625
+msgid "Custom Fields"
+msgstr "Кастомные поля"
+
+#: includes/components/post-types/manager.php:629
+msgid "Post Formats"
+msgstr "Форматы записи"
+
+#: includes/components/post-types/manager.php:648
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: includes/components/post-types/manager.php:700
+msgid "Please, set post type name"
+msgstr ""
+
+#: includes/components/post-types/manager.php:701
+msgid "Please, set post type slug"
+msgstr ""
+
+#: includes/components/post-types/manager.php:702
+msgid "Post type updated"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:38
+msgid "Edit Post Type"
+msgstr "Редактировать тип записи"
+
+#: includes/components/post-types/pages/edit.php:40
+msgid "Add New Post Type"
+msgstr "Добавить новый тип записи"
+
+#: includes/components/post-types/pages/edit.php:106
+msgid "Update Post Type"
+msgstr "Обновить тип записи"
+
+#: includes/components/post-types/pages/edit.php:117
+msgid "Add Post Type"
+msgstr "Добавить тип записи"
+
+#: includes/components/post-types/pages/edit.php:133
+msgid "Maximum 20 characters length"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:137
+msgid "Creating custom post type with JetEngine"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:141
+msgid "How to create a custom post type"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:145
+msgid "How to display post terms in admin columns"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:149
+msgid "How to display date in an admin column"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:153
+msgid ""
+"How to use custom callback to display needed information in admin columns"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:171
+msgid "Format date (from timestamp)"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:174
+#: includes/components/post-types/pages/edit.php:189
+#: includes/components/post-types/pages/edit.php:199
+#: includes/components/post-types/pages/edit.php:209
+#: includes/components/post-types/pages/edit.php:229
+#: includes/components/post-types/pages/edit.php:244
+msgid "Set field"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:175
+msgid "Meta field to get date from"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:179
+msgid "Set format"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:186
+msgid "Get linked post title by post ID"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:190
+#: includes/components/post-types/pages/edit.php:200
+msgid "Meta field to get post ID from"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:196
+msgid "Get linked post title by post ID (for relations)"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:206
+msgid "Render human-readable value from switcher field"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:210
+#: includes/components/post-types/pages/edit.php:230
+#: includes/components/post-types/pages/edit.php:245
+msgid "Meta field to get value from"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:214
+msgid "Label if enabled"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:215
+msgid "Show this if switcher is enabled"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:219
+msgid "Label if disabled"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:220
+msgid "Show this if switcher is disabled"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:226
+msgid "Render human-readable value from checkbox field"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:235
+msgid "If multiple values checked - them will be separated with this"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:241
+msgid "Render image tag by post thumbnail or image from meta"
+msgstr ""
+
+#: includes/components/post-types/pages/edit.php:250
+msgid "Image size (numeric value)"
+msgstr ""
+
+#: includes/components/post-types/pages/list.php:64
+msgid "Custom Post Types List"
+msgstr "Список произвольных типов записей"
+
+#: includes/components/post-types/rest-api/edit-built-in-post-type.php:34
+msgid "Post type not found in request"
+msgstr ""
+
+#: includes/components/post-types/rest-api/get-built-in-post-type.php:31
+#: includes/components/post-types/rest-api/reset-built-in-post-type.php:31
+msgid "Post type name not found in request"
+msgstr ""
+
+#: includes/components/relations/data.php:36
+#: includes/components/relations/data.php:69
+msgid "Please set both post types"
+msgstr "Пожалуйста, укажите оба типа записи"
+
+#: includes/components/relations/data.php:44
+#: includes/components/relations/data.php:77
+msgid "Parent and child post type can't be the same"
+msgstr ""
+"Невозможно обозначить один тип записи одновременно как родительский и "
+"дочерний"
+
+#: includes/components/relations/manager.php:114
+msgid "One to one"
+msgstr ""
+
+#: includes/components/relations/manager.php:115
+msgid "One to many"
+msgstr ""
+
+#: includes/components/relations/manager.php:116
+msgid "Many to many"
+msgstr ""
+
+#: includes/components/relations/manager.php:216
+#: includes/components/relations/manager.php:217
+#, php-format
+msgid "Related %s"
+msgstr "Похожие: %s"
+
+#: includes/components/relations/manager.php:233
+#: includes/components/relations/manager.php:262
+#, php-format
+msgid "Select %s"
+msgstr "Выбрать %s"
+
+#: includes/components/relations/manager.php:236
+#, php-format
+msgid "Set Child %s"
+msgstr "Установить дочерний тип записи %s"
+
+#: includes/components/relations/manager.php:265
+#, php-format
+msgid "Set Parent %s"
+msgstr "Установить родительский тип записи %s"
+
+#: includes/components/relations/manager.php:315
+#, php-format
+msgid "Child %s"
+msgstr "Дочерняя запись %s"
+
+#: includes/components/relations/manager.php:321
+#, php-format
+msgid "Parent %s"
+msgstr "Родительская запись %s"
+
+#: includes/components/relations/manager.php:541
+#: includes/dashboard/skins-import.php:133
+#: templates/admin/pages/dashboard/export.php:66
+msgid "Relations"
+msgstr "Связи"
+
+#: includes/components/relations/pages/edit.php:38
+msgid "Edit Relation"
+msgstr "Редактировать связь"
+
+#: includes/components/relations/pages/edit.php:40
+#: includes/components/relations/pages/edit.php:99
+msgid "Add Relation"
+msgstr "Добавить связь"
+
+#: includes/components/relations/pages/edit.php:96
+msgid "Update Relation"
+msgstr "Обновить связь"
+
+#: includes/components/relations/pages/edit.php:114
+msgid "How to choose the needed post relations and set them with JetEngine"
+msgstr ""
+
+#: includes/components/relations/pages/edit.php:118
+msgid ""
+"How to establish posts relations with JetEngine. Creating “one-to-one” posts "
+"relation"
+msgstr ""
+
+#: includes/components/relations/pages/edit.php:122
+msgid "How to display related posts using Dynamic Field widget"
+msgstr ""
+
+#: includes/components/relations/pages/edit.php:126
+msgid "How to display the related child posts in the Listing Grid"
+msgstr ""
+
+#: includes/components/relations/pages/edit.php:130
+msgid "How to display the related parent posts in the Listing Grid"
+msgstr ""
+
+#: includes/components/relations/pages/list.php:62
+msgid "Posts Relations List"
+msgstr ""
+
+#: includes/components/relations/rest-api/get-relation.php:47
+msgid "Relation not found"
+msgstr ""
+
+#: includes/components/taxonomies/data.php:53
+msgid "Please set taxonomy slug"
+msgstr "Пожалуйста, установите slug таксономии"
+
+#: includes/components/taxonomies/data.php:61
+msgid "Please set taxonomy name"
+msgstr "Пожалуйста, установите имя таксономии"
+
+#: includes/components/taxonomies/data.php:69
+msgid "Please set post type for taxonomy"
+msgstr "Пожалуйста, установите тип записи для таксономии"
+
+#: includes/components/taxonomies/data.php:77
+msgid "Please change taxonomy slug. Current is reserved for WordPress needs"
+msgstr ""
+"Пожалуйста, измените slug таксономии. Текущий зарезервирован для нужд "
+"WordPress"
+
+#: includes/components/taxonomies/manager.php:224
+msgid "Name for one object of this taxonomy"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:230
+msgid "Menu name text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:231
+msgid ""
+"This string is the name to give menu items. If not set, defaults to value of "
+"name field"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:237
+msgid "All items text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:238
+msgid "Default is All Tags or All Categories"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:244
+msgid "Edit item text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:245
+msgid "Default is Edit Tag or Edit Category"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:252
+msgid "Default is View Tag or View Category"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:258
+msgid "Update item text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:259
+msgid "Default is Update Tag or Update Category"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:261
+msgid "Update %s%"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:265
+msgid "Add new item text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:266
+msgid "Default is Add New Tag or Add New Category"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:272
+msgid "New item name text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:273
+msgid "Default is New Tag Name or New Category Name"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:275
+msgid "New %s% Name"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:279
+msgid "Parent item text"
+msgstr "Текст родительского элемента"
+
+#: includes/components/taxonomies/manager.php:280
+msgid ""
+"This string is not used on non-hierarchical taxonomies such as post tags"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:286
+msgid "Parent item with colon"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:287
+msgid "The same as parent_item, but with colon : in the end null"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:289
+msgid "Parent %s%:"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:293
+msgid "Search items text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:294
+msgid "Default is Search Tags or Search Categories"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:296
+msgid "Search %s%"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:300
+msgid "Popular items text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:301
+msgid "This string is not used on hierarchical taxonomies"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:303
+msgid "Popular %s%"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:307
+msgid "Separate item with commas text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:308
+#: includes/components/taxonomies/manager.php:322
+msgid ""
+"Used in the taxonomy meta box. This string is not used on hierarchical "
+"taxonomies"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:310
+msgid "Separate %s% with commas"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:314
+msgid "Add or remove items text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:315
+msgid ""
+"Used in the taxonomy meta box when JavaScript is disabled. This string is "
+"not used on hierarchical taxonomies"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:317
+msgid "Add or remove %s%"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:321
+msgid "Choose from most used text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:324
+msgid "Choose from the most used %s%"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:328
+msgid "Items not found text"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:329
+msgid ""
+"The text displayed via clicking \"Choose from the most used tags\" in the "
+"taxonomy meta box when no tags are available and the text used in the terms "
+"list table when there are no items for a taxonomy"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:331
+#, php-format
+msgid "No %s% found"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:335
+msgid "Back to items"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:336
+msgid ""
+"The text displayed after a term has been updated for a link back to main "
+"index"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:338
+msgid "← Back to %s%"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:362
+#: includes/dashboard/skins-import.php:204
+#: templates/admin/pages/dashboard/export.php:46
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: includes/components/taxonomies/manager.php:411
+msgid "Please, set taxonomy name"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:412
+msgid "Please, set taxonomy slug"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:413
+msgid "Please, select post type for this taxonomy"
+msgstr ""
+
+#: includes/components/taxonomies/manager.php:414
+msgid "Taxonomy updated"
+msgstr ""
+
+#: includes/components/taxonomies/pages/edit.php:38
+msgid "Edit Taxonomy"
+msgstr "Редактировать таксономию"
+
+#: includes/components/taxonomies/pages/edit.php:40
+msgid "Add New Taxonomy"
+msgstr "Добавить новую таксономию"
+
+#: includes/components/taxonomies/pages/edit.php:97
+msgid "Update Taxonomy"
+msgstr "Обновить таксономию"
+
+#: includes/components/taxonomies/pages/edit.php:100
+msgid "Add Taxonomy"
+msgstr "Добавить таксономию"
+
+#: includes/components/taxonomies/pages/edit.php:115
+msgid "Creating custom taxonomy with JetEngine"
+msgstr ""
+
+#: includes/components/taxonomies/pages/edit.php:119
+msgid "How to add a thumbnail for the specific taxonomy"
+msgstr ""
+
+#: includes/components/taxonomies/pages/edit.php:123
+msgid "How to create an additional taxonomy type to use it for the post"
+msgstr ""
+
+#: includes/components/taxonomies/pages/list.php:62
+msgid "Custom Taxonomies List"
+msgstr "Список кастомных таксономий"
+
+#: includes/components/taxonomies/rest-api/get-taxonomy.php:47
+msgid "Taxonomy not found"
+msgstr ""
+
+#: includes/dashboard/manager.php:115
+msgid "Saved!"
+msgstr ""
+
+#: includes/dashboard/manager.php:116
+msgid ""
+"Saved! One of activated/deactivated modules requires page reloading. Page "
+"will be reloaded automatically in few seconds."
+msgstr ""
+
+#: includes/dashboard/skins-import.php:44
+msgid "File not passed"
+msgstr "Файл не передан"
+
+#: includes/dashboard/skins-import.php:50
+msgid "Format not allowed"
+msgstr "Формат не разрешен"
+
+#: includes/dashboard/skins-import.php:57
+msgid "No data found in file"
+msgstr "В файле нет данных"
+
+#: includes/dashboard/skins-import.php:168
+#: templates/admin/pages/dashboard/export.php:36
+msgid "Post types"
+msgstr "Типы записей"
+
+#: includes/modules/calendar/calendar.php:33
+#: includes/modules/calendar/widget.php:33
+msgid "Calendar"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:79
+msgid "Group posts by"
+msgstr "Сгруппировать посты по"
+
+#: includes/modules/calendar/widget.php:83
+msgid "Post publication date"
+msgstr "Дате публикации"
+
+#: includes/modules/calendar/widget.php:84
+msgid "Post modification date"
+msgstr "Дате внесения изменений"
+
+#: includes/modules/calendar/widget.php:85
+msgid "Date from custom field"
+msgstr "Дате из мета поля"
+
+#: includes/modules/calendar/widget.php:93
+msgid "Meta field name"
+msgstr "Заголовок мета поля"
+
+#: includes/modules/calendar/widget.php:97
+msgid ""
+"This field must contain date to group posts by. Works only if \"Save as "
+"timestamp\" option for meta field is active"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:107
+msgid "Allow multiday events"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:123
+msgid "End date field name"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:127
+msgid ""
+"This field must contain date when events ends. Works only if \"Save as "
+"timestamp\" option for meta field is active"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:138
+msgid "Week days format"
+msgstr "Формат дней недели"
+
+#: includes/modules/calendar/widget.php:143
+msgid "Short"
+msgstr "Сокращенный"
+
+#: includes/modules/calendar/widget.php:144
+msgid "Initial letter"
+msgstr "Заглавная буква"
+
+#: includes/modules/calendar/widget.php:152
+msgid "Start from custom month"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:165
+msgid "Start from month"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:178
+msgid "Start from year"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:198
+msgid "January"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:199
+msgid "February"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:200
+msgid "March"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:201
+msgid "April"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:202
+msgid "May"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:203
+msgid "June"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:204
+msgid "July"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:205
+msgid "August"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:206
+msgid "September"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:207
+msgid "October"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:208
+msgid "November"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:209
+msgid "December"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:222
+msgid "Caption"
+msgstr "Описание"
+
+#: includes/modules/calendar/widget.php:235
+msgid "Layout 1"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:236
+msgid "Layout 2"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:237
+msgid "Layout 3"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:238
+msgid "Layout 4"
+msgstr ""
+
+#: includes/modules/calendar/widget.php:257
+msgid "Label Color"
+msgstr "Цвет маркера"
+
+#: includes/modules/calendar/widget.php:324
+msgid "Navigation Arrows"
+msgstr "Навигационные элементы"
+
+#: includes/modules/calendar/widget.php:367
+msgid "Arrow Size"
+msgstr "Размер элементов"
+
+#: includes/modules/calendar/widget.php:386
+msgid "Prev Arrow (Default)"
+msgstr "Назад (По умолчанию)"
+
+#: includes/modules/calendar/widget.php:417
+msgid "Next Arrow"
+msgstr "Вперед"
+
+#: includes/modules/calendar/widget.php:533
+msgid "Week Days"
+msgstr "Дни недели"
+
+#: includes/modules/calendar/widget.php:584
+#: includes/modules/calendar/widget.php:712
+msgid "Border Width"
+msgstr "Ширина контура"
+
+#: includes/modules/calendar/widget.php:608
+msgid "First Border Color"
+msgstr "Первый цвет контура"
+
+#: includes/modules/calendar/widget.php:619
+msgid "Last Border Color"
+msgstr "Второй цвет контура"
+
+#: includes/modules/calendar/widget.php:645
+msgid "Days"
+msgstr "Дни"
+
+#: includes/modules/calendar/widget.php:677
+msgid "Min height"
+msgstr "Минимальная высота"
+
+#: includes/modules/calendar/widget.php:695
+msgid "Gap between events"
+msgstr "Отступ между событиями"
+
+#: includes/modules/calendar/widget.php:757
+msgid "Date Label"
+msgstr "Маркер даты"
+
+#: includes/modules/calendar/widget.php:799
+msgid "Has Events"
+msgstr "Содержит события"
+
+#: includes/modules/calendar/widget.php:840
+msgid "Date Box Alignment"
+msgstr "Выравнивание контейнера даты"
+
+#: includes/modules/calendar/widget.php:866
+msgid "Date Text Alignment"
+msgstr "Выравнивание текста даты"
+
+#: includes/modules/calendar/widget.php:977
+msgid "Disabled Days (not in current month)"
+msgstr "Не включенные дни (не в текущем месяце)"
+
+#: includes/modules/calendar/widget.php:986
+msgid "Opacity"
+msgstr "Прозрачность"
+
+#: includes/modules/calendar/widget.php:1000
+msgid "Day Background Color"
+msgstr "День: цвет фона "
+
+#: includes/modules/calendar/widget.php:1011
+msgid "Day Border Color"
+msgstr "Цень: цвет контура"
+
+#: includes/modules/calendar/widget.php:1022
+msgid "Day Label Text Color"
+msgstr "День: Цвет заголовока"
+
+#: includes/modules/calendar/widget.php:1033
+msgid "Day Label Background Color"
+msgstr "День: цвет фона заголовка"
+
+#: includes/modules/calendar/widget.php:1044
+msgid "Day Label Border Color"
+msgstr "День: цвет контура заголовка"
+
+#: includes/modules/calendar/widget.php:1057
+msgid "Mobile"
+msgstr "Мобильная адаптивность"
+
+#: includes/modules/calendar/widget.php:1066
+msgid "Mobile Trigger Color"
+msgstr "Цвет триггера"
+
+#: includes/modules/calendar/widget.php:1077
+msgid "Active Mobile Trigger Color"
+msgstr "Цвет активного триггера"
+
+#: includes/modules/calendar/widget.php:1088
+msgid "Mobile Trigger Width"
+msgstr "Ширина триггера"
+
+#: includes/modules/calendar/widget.php:1110
+msgid "Mobile Trigger Height"
+msgstr "Высота триггера"
+
+#: includes/modules/calendar/widget.php:1127
+msgid "Mobile Trigger Alignment"
+msgstr "Выравнивание триггера"
+
+#: includes/modules/calendar/widget.php:1153
+msgid "Mobile Trigger Border Radius"
+msgstr "Ширина контура триггера"
+
+#: includes/modules/calendar/widget.php:1165
+msgid "Mobile Trigger Margin"
+msgstr "Внешний отступ триггера"
+
+#: includes/modules/calendar/widget.php:1177
+msgid "Mobile Event Margin"
+msgstr "Внешний отступ для события (мобильное устройство)"
+
+#: includes/modules/forms/builder.php:321
+#: includes/modules/forms/editor.php:344 includes/modules/forms/editor.php:345
+#: includes/modules/forms/widgets/booking-form.php:800
+msgid "Submit"
+msgstr ""
+
+#: includes/modules/forms/editor.php:147
+msgid "New order on website"
+msgstr ""
+
+#: includes/modules/forms/editor.php:155
+msgid "Are you sure you want to delete this field?"
+msgstr ""
+
+#: includes/modules/forms/editor.php:167
+msgid "Message"
+msgstr ""
+
+#: includes/modules/forms/editor.php:168
+msgid "Submit Button"
+msgstr ""
+
+#: includes/modules/forms/editor.php:169
+msgid ""
+"The “Redirect” notification should be the last one on the list. No other "
+"notifications will be processed after Redirect is done."
+msgstr ""
+
+#: includes/modules/forms/editor.php:244
+msgid "User Login"
+msgstr ""
+
+#: includes/modules/forms/editor.php:245
+#: includes/modules/forms/manager.php:142
+msgid "Email"
+msgstr ""
+
+#: includes/modules/forms/editor.php:246
+#: includes/modules/forms/manager.php:145
+msgid "Password"
+msgstr ""
+
+#: includes/modules/forms/editor.php:247
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/modules/forms/editor.php:329 includes/modules/forms/editor.php:476
+#: templates/forms/admin/form-builder.php:159
+msgid "Current Post ID"
+msgstr ""
+
+#: includes/modules/forms/editor.php:387 includes/modules/forms/editor.php:388
+#: includes/modules/forms/editor.php:431 includes/modules/forms/editor.php:441
+#: includes/modules/forms/forms.php:33
+msgid "Forms"
+msgstr ""
+
+#: includes/modules/forms/editor.php:432
+#: includes/modules/forms/widgets/booking-form.php:18
+msgid "Form"
+msgstr ""
+
+#: includes/modules/forms/editor.php:434
+msgid "Add New Form"
+msgstr ""
+
+#: includes/modules/forms/editor.php:435
+msgid "Edit Form"
+msgstr ""
+
+#: includes/modules/forms/editor.php:437
+msgid "View Form"
+msgstr ""
+
+#: includes/modules/forms/editor.php:438
+msgid "Search Form"
+msgstr ""
+
+#: includes/modules/forms/editor.php:439
+msgid "No Forms Found"
+msgstr ""
+
+#: includes/modules/forms/editor.php:440
+msgid "No Forms Found In Trash"
+msgstr ""
+
+#: includes/modules/forms/editor.php:473
+msgid "Select type..."
+msgstr ""
+
+#: includes/modules/forms/editor.php:526
+msgid "Fields Settings"
+msgstr ""
+
+#: includes/modules/forms/editor.php:537
+msgid "Notifications Settings"
+msgstr ""
+
+#: includes/modules/forms/editor.php:548
+msgid "Messages Settings"
+msgstr ""
+
+#: includes/modules/forms/manager.php:125
+msgid "Send Email"
+msgstr ""
+
+#: includes/modules/forms/manager.php:126
+msgid "Insert Post"
+msgstr ""
+
+#: includes/modules/forms/manager.php:127
+msgid "Register New User"
+msgstr ""
+
+#: includes/modules/forms/manager.php:128
+msgid "Call a Hook"
+msgstr ""
+
+#: includes/modules/forms/manager.php:129
+msgid "Call a Webhook"
+msgstr ""
+
+#: includes/modules/forms/manager.php:130
+msgid "Redirect to Page"
+msgstr ""
+
+#: includes/modules/forms/manager.php:144
+msgid "Tel"
+msgstr ""
+
+#: includes/modules/forms/manager.php:158
+#: includes/modules/forms/manager.php:159
+msgid "Form successfully submitted."
+msgstr ""
+
+#: includes/modules/forms/manager.php:162
+msgid "Submit failed."
+msgstr ""
+
+#: includes/modules/forms/manager.php:163
+msgid "There was an error trying to submit form. Please try again later."
+msgstr ""
+
+#: includes/modules/forms/manager.php:166
+msgid "Validation error"
+msgstr ""
+
+#: includes/modules/forms/manager.php:167
+msgid "One or more fields have an error. Please check and try again."
+msgstr ""
+
+#: includes/modules/forms/manager.php:170
+msgid "Entered an invalid email"
+msgstr ""
+
+#: includes/modules/forms/manager.php:171
+msgid "The e-mail address entered is invalid."
+msgstr ""
+
+#: includes/modules/forms/manager.php:174
+msgid "Required field is empty"
+msgstr ""
+
+#: includes/modules/forms/manager.php:175
+msgid "The field is required."
+msgstr ""
+
+#: includes/modules/forms/manager.php:178
+msgid "Register User specific: Passwords mismatch"
+msgstr ""
+
+#: includes/modules/forms/manager.php:179
+msgid "Passwords don't match."
+msgstr ""
+
+#: includes/modules/forms/manager.php:182
+msgid "Register User specific: Username Exists"
+msgstr ""
+
+#: includes/modules/forms/manager.php:183
+msgid "This username already taken."
+msgstr ""
+
+#: includes/modules/forms/manager.php:186
+msgid "Register User specific: Email exists"
+msgstr ""
+
+#: includes/modules/forms/manager.php:187
+msgid "This e-mail already used."
+msgstr ""
+
+#: includes/modules/forms/manager.php:190
+msgid "Register User specific: Incorrect username"
+msgstr ""
+
+#: includes/modules/forms/manager.php:191
+msgid "Username contains not allowed characters."
+msgstr ""
+
+#: includes/modules/forms/manager.php:194
+msgid "Register User specific: Empty username"
+msgstr ""
+
+#: includes/modules/forms/manager.php:195
+msgid "Please set username."
+msgstr ""
+
+#: includes/modules/forms/manager.php:198
+msgid "Register User specific: Empty email"
+msgstr ""
+
+#: includes/modules/forms/manager.php:199
+msgid "Please set user email."
+msgstr ""
+
+#: includes/modules/forms/manager.php:202
+msgid "Register User specific: Empty password"
+msgstr ""
+
+#: includes/modules/forms/manager.php:203
+msgid "Please set user password."
+msgstr ""
+
+#: includes/modules/forms/manager.php:206
+#: includes/modules/forms/manager.php:207
+msgid "Captcha validation failed"
+msgstr ""
+
+#: includes/modules/forms/manager.php:231
+msgid "Hidden"
+msgstr ""
+
+#: includes/modules/forms/manager.php:233
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/modules/forms/manager.php:235
+msgid "Number"
+msgstr ""
+
+#: includes/modules/forms/manager.php:238
+msgid "Calculated"
+msgstr ""
+
+#: includes/modules/forms/notifications.php:478
+#, php-format
+msgid "Form on %s Submitted"
+msgstr ""
+
+#: includes/modules/forms/notifications.php:519
+#, php-format
+msgid ""
+"Email from JetEngine Booking Form failed to send.\n"
+"Send time: %s\n"
+"To: %s\n"
+"Subject: %s\n"
+"Content: %s\n"
+"\n"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:45
+msgid "Select form"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:55
+msgid "Fields layout"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:60
+msgid "Row"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:68
+msgid "Submit type"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:72
+msgid "Reload"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:73
+msgid "AJAX"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:81
+msgid "Cache form output"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:96
+msgid "Rows"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:105
+msgid "Divider between rows"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:153
+msgid "Rows Gap"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:171
+msgid "Columns Gap"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:254
+msgid "Descriptions"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:294
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:323
+msgid "Vertical Alignment"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:333
+msgid "Middle"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:380
+msgid "Placeholder Color"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:458
+msgid "Textarea Height"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:478
+msgid "Checkbox & Radio Fields"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:528
+msgid "Gap between control and label"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:605
+msgid "Calculated Fields"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:633
+msgid "Prefix Color"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:644
+msgid "Prefix size"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:662
+msgid "Suffix Color"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:673
+msgid "Suffix size"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:750
+#: includes/modules/forms/widgets/booking-form.php:759
+msgid "Required mark"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:983
+msgid "Messages"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:1024
+msgid "Success"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:1182
+msgid "Field Messages"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:1191
+msgid "Font Size"
+msgstr ""
+
+#: includes/modules/forms/widgets/booking-form.php:1275
+msgid "Please, select form to show"
+msgstr ""
+
+#: includes/modules/gallery/grid.php:33
+msgid "Grid Gallery for Dynamic Field widget"
+msgstr "Grid Gallery для виджета Dynamic Field"
+
+#: includes/modules/gallery/grid.php:56
+msgid "Images gallery grid"
+msgstr "Галерея изображений в формате Grid "
+
+#: includes/modules/gallery/grid.php:71
+#: includes/modules/gallery/slider.php:132
+msgid "Images gap"
+msgstr "Отступ изображений"
+
+#: includes/modules/gallery/grid.php:96 includes/modules/gallery/slider.php:76
+msgid "Image Overlay"
+msgstr "Перекрытие изображения"
+
+#: includes/modules/gallery/grid.php:116
+#: includes/modules/gallery/slider.php:96
+msgid "Hover Overlay"
+msgstr "Перекрытие при наведении курсора"
+
+#: includes/modules/gallery/grid.php:139
+#: includes/modules/gallery/slider.php:119
+msgid "Lightbox Icon Color"
+msgstr "Цвет иконки лайтбокса"
+
+#: includes/modules/gallery/grid.php:180
+#: includes/modules/gallery/slider.php:335
+msgid "Images Size"
+msgstr "Размер изображений"
+
+#: includes/modules/gallery/grid.php:194
+#: includes/modules/gallery/slider.php:349
+msgid "Use lightbox"
+msgstr "Использовать лайтбокс"
+
+#: includes/modules/gallery/slider.php:33
+msgid "Slider Gallery for Dynamic Field widget"
+msgstr "Slider Gallery для виджета Dynamic Field"
+
+#: includes/modules/gallery/slider.php:56
+msgid "Images gallery slider"
+msgstr "Галерея изображений в формате Slider"
+
+#: includes/modules/gallery/slider.php:157
+msgid "Slider arrows"
+msgstr "Стрелки слайдера"
+
+#: includes/modules/gallery/slider.php:314
+msgid "Slides to show"
+msgstr "Показывать слайды"
+
+#: includes/modules/listing-injections/listing-injections.php:36
+msgid "Listing Grid injections"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:390
+msgid "Inject alternative listing items"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:403
+msgid "Listing template"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:413
+msgid "Inject on"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:417
+msgid "On each N item"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:418
+msgid "Depends on item meta field value"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:426
+msgid "Inject this item only once"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:437
+msgid "Item number"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:452
+msgid "Start from first"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:456
+msgid ""
+"If checked - alternative item will be injected on first item and then on "
+"each N item after first. If not - on each N item from start."
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:516
+msgid "Column span"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:519
+msgid "Note: Can't be bigger than Columns Number value"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:534
+msgid "Static item"
+msgstr ""
+
+#: includes/modules/listing-injections/listing-injections.php:538
+msgid ""
+"If checked - alternative item will be injected without current post context. "
+"Use this to inject static items into listing."
+msgstr ""
+
+#: includes/modules/qr-code/qr-code.php:35
+msgid "QR Code for Dynamic Field widget"
+msgstr "QR код для виджета Dynamic Field"
+
+#: includes/modules/qr-code/qr-code.php:57
+msgid "QR Code"
+msgstr "QR код"
+
+#: includes/modules/qr-code/qr-code.php:72
+msgid "QR Code Size"
+msgstr "Размер QR кода"
+
+#: includes/updater/plugin-changelog.php:127
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/updater/plugin-changelog.php:129
+msgid "View details"
+msgstr ""
+
+#: templates/admin/listings-popup.php:10
+msgid "Setup Listing Item"
+msgstr "Создается новый шаблон листинга"
+
+#: templates/admin/listings-popup.php:38
+msgid "Listing Item Name:"
+msgstr "Заголовок шаблона листинга:"
+
+#: templates/admin/listings-popup.php:39
+msgid "Set listing name"
+msgstr "Задать заголовок для листинга"
+
+#: templates/admin/listings-popup.php:42
+msgid "Listing view:"
+msgstr ""
+
+#: templates/admin/listings-popup.php:44
+msgid "Elementor"
+msgstr ""
+
+#: templates/admin/listings-popup.php:45
+msgid "Blocks (Gutenberg)"
+msgstr ""
+
+#: templates/admin/listings-popup.php:50
+msgid "Create Listing Item"
+msgstr "Создать шаблон листинга"
+
+#: templates/admin/pages/dashboard/export.php:18
+msgid "Export Skin"
+msgstr ""
+
+#: templates/admin/pages/dashboard/export.php:21
+msgid ""
+"Export combination of post types, related taxonomies and listing items as "
+"new skin"
+msgstr ""
+"Экспортировать комбинацию типов записей, соответствующих таксономий и "
+"листингов как новый скин"
+
+#: templates/admin/pages/dashboard/export.php:30
+msgid "Export settings"
+msgstr ""
+
+#: templates/admin/pages/dashboard/export.php:56
+msgid "Meta boxes"
+msgstr ""
+
+#: templates/admin/pages/dashboard/export.php:76
+msgid "Listing items"
+msgstr ""
+
+#: templates/admin/pages/dashboard/export.php:87
+msgid "Sample content"
+msgstr ""
+
+#: templates/admin/pages/dashboard/export.php:93
+msgid "Export"
+msgstr "Експортировать"
+
+#: templates/admin/pages/dashboard/import.php:18
+msgid "Import Skin"
+msgstr ""
+
+#: templates/admin/pages/dashboard/import.php:21
+msgid "Import new post types, taxonomies and listing items from JSON file."
+msgstr ""
+
+#: templates/admin/pages/dashboard/import.php:31
+msgid "Imported:"
+msgstr ""
+
+#: templates/admin/pages/dashboard/import.php:45
+msgid "Choose an JetEngine skin JSON file, and add it to your website."
+msgstr ""
+
+#: templates/admin/pages/dashboard/import.php:54
+msgid "Import"
+msgstr ""
+
+#: templates/admin/pages/dashboard/main.php:7
+msgid "JetEngine dashboard"
+msgstr ""
+
+#: templates/admin/pages/dashboard/main.php:17
+msgid "Modules"
+msgstr ""
+
+#: templates/admin/pages/dashboard/main.php:22
+msgid "Available Modules"
+msgstr "Доступные виджеты"
+
+#: templates/admin/pages/dashboard/main.php:23
+msgid "Enable/disable additional JetEngine features"
+msgstr ""
+
+#: templates/admin/pages/dashboard/main.php:57
+msgid "Skins Manager"
+msgstr "Менеджер скинов"
+
+#: templates/admin/pages/dashboard/main.php:63
+msgid "Skins manager"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:3
+msgid "Delete meta box"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:4
+#: templates/admin/pages/options-pages/delete-dialog.php:4
+#: templates/admin/pages/post-types/delete-dialog.php:4
+#: templates/admin/pages/post-types/edit.php:474
+#: templates/admin/pages/relations/delete-dialog.php:4
+#: templates/admin/pages/taxonomies/delete-dialog.php:4
+#: templates/forms/admin/form-builder.php:338
+#: templates/forms/admin/notifications.php:237
+msgid "Cancel"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:9
+msgid "Please confirm meta box deletion"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/delete-dialog.php:12
+msgid "Are you sure you want to delete this meta box?"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:11
+#: templates/admin/pages/options-pages/edit.php:11
+#: templates/admin/pages/post-types/edit.php:11
+#: templates/admin/pages/relations/edit.php:11
+#: templates/admin/pages/taxonomies/edit.php:11
+msgid "General Settings"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:14
+msgid "Meta Box Title"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:15
+msgid ""
+"Title will be shown ar the top of Meta Box on edit Post page. Eg. `Settings`"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:23
+msgid "Meta Box for"
+msgstr "Блок метаданных для"
+
+#: templates/admin/pages/meta-boxes/edit.php:24
+msgid "Select to add this meta box to posts, taxonomies or users"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:36
+msgid "User"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:44
+msgid "Enable For Post Types"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:45
+msgid "Select post types where this meta box should be shown"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:60
+msgid "Enable For Taxonomies"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:61
+msgid "Select taxonomies where this meta box should be shown"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:76
+msgid "Specific Posts"
+msgstr "Избранные посты"
+
+#: templates/admin/pages/meta-boxes/edit.php:77
+msgid "Select specific post to show meta box on"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:94
+msgid "Visible at"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:95
+msgid ""
+"If selected `Edit User` meta fields will be visible only for website "
+"administrator on Edit User page, if `Edit User & Profile` - fields also will "
+"be visible at user Profile page and can be edited by user"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:99
+msgid "Edit User"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:103
+msgid "Edit User & Profile"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:123
+#: templates/admin/pages/meta-boxes/list.php:13
+#: templates/admin/pages/options-pages/edit.php:97
+#: templates/admin/pages/options-pages/list.php:13
+#: templates/admin/pages/post-types/edit.php:391
+#: templates/admin/pages/post-types/list.php:14
+#: templates/admin/pages/relations/edit.php:74
+#: templates/admin/pages/relations/list.php:15
+#: templates/admin/pages/taxonomies/edit.php:170
+#: templates/admin/pages/taxonomies/list.php:13
+msgid "Actions"
+msgstr "Действия"
+
+#: templates/admin/pages/meta-boxes/edit.php:125
+#: templates/admin/pages/options-pages/edit.php:99
+#: templates/admin/pages/post-types/edit.php:393
+#: templates/admin/pages/relations/edit.php:76
+#: templates/admin/pages/taxonomies/edit.php:172
+msgid ""
+"If you are not sure where to start, please check tutorials list below this "
+"block"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/edit.php:149
+#: templates/admin/pages/meta-boxes/list.php:36
+#: templates/admin/pages/options-pages/edit.php:123
+#: templates/admin/pages/options-pages/list.php:36
+#: templates/admin/pages/post-types/edit.php:426
+#: templates/admin/pages/post-types/list.php:70
+#: templates/admin/pages/relations/delete-dialog.php:3
+#: templates/admin/pages/relations/edit.php:100
+#: templates/admin/pages/relations/list.php:40
+#: templates/admin/pages/taxonomies/delete-dialog.php:3
+#: templates/admin/pages/taxonomies/edit.php:196
+#: templates/admin/pages/taxonomies/list.php:36
+msgid "Delete"
+msgstr "Удалить"
+
+#: templates/admin/pages/meta-boxes/edit.php:167
+#: templates/admin/pages/options-pages/edit.php:141
+#: templates/admin/pages/post-types/edit.php:458
+#: templates/admin/pages/relations/edit.php:118
+#: templates/admin/pages/taxonomies/edit.php:214
+msgid "Need Help?"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:26
+msgid "Meta field label. It will be displayed on Post edit page"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:34
+msgid "Name/ID"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:35
+msgid ""
+"Meta field name/ID. Under this name field will be stored in the database. "
+"Should contain only Latin letters, numbers, `-` or `_` chars"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:42
+msgid "Object type"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:43
+msgid ""
+"Current meta box object type: field or layout element. To close the action "
+"of previously selected Tab or Accordion group, use the `Endpoint` option"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:53
+msgid "Tab"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:57
+msgid "Accordion"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:61
+msgid "Endpoint"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:68
+msgid "Field type"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:69
+msgid ""
+"Meta field type. Defines the way field to be displayed on Post edit page"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:85
+msgid ""
+"Select tab layout. Note, layout selected on first tab in set will be "
+"automatically applied to all other tabs"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:125
+msgid "New Field Option"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:142
+msgid "Option Value"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:143
+msgid "This value will be saved into Database"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:150
+msgid "Option label"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:151
+msgid "This will be shown for user on Post edit page"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:158
+msgid "Is checked (selected)"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:159
+msgid "Check this to make this field checked or selected by default."
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:169
+msgid "Save as timestamp"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:170
+msgid ""
+"If this option is enabled date will be saved in database Unix timestamp. "
+"Toggle it if you need to sort or query posts by date"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:188
+#: templates/admin/pages/meta-boxes/fields.php:288
+msgid "Search in post types"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:189
+#: templates/admin/pages/meta-boxes/fields.php:289
+msgid "Select post types available to search in"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:210
+#: templates/admin/pages/meta-boxes/fields.php:306
+msgid "Multiple"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:211
+#: templates/admin/pages/meta-boxes/fields.php:307
+msgid "Allow to select multiple values"
+msgstr "Разрешить, чтобы выбрать несколько значений"
+
+#: templates/admin/pages/meta-boxes/fields.php:245
+msgid "New Repeater Field"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:263
+msgid "Repeater field label. Will be displayed on Post edit page"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:272
+msgid ""
+"Repeater field name/ID. Should contain only latin letters, numbers, `-` or "
+"`_` chars"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:280
+msgid ""
+"Repeater field type. Defines the way field be displayed on Post edit page"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:325
+msgid "Meta field description to be shown on Post edit page"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:339
+msgid "Field width"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:340
+msgid "Select meta field width from the dropdown list for Post edit page"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:385
+msgid "Character limit"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:386
+msgid "Max field value length. Leave empty for no limit"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:406
+msgid "Default value"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:407
+msgid ""
+"Set default value for current field. <b>Note</b> For date field you can set "
+"any value could be processed by strtotime() function."
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:421
+msgid "Is required"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/fields.php:422
+msgid ""
+"Toggle this option to make this field as required one. Note: so far, "
+"required fields don’t work properly with Blocks editor"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/list.php:4
+msgid "No meta boxes found"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/list.php:11
+msgid "Meta Box Name"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/list.php:12
+msgid "Show On"
+msgstr ""
+
+#: templates/admin/pages/meta-boxes/list.php:30
+#: templates/admin/pages/options-pages/list.php:30
+#: templates/admin/pages/post-types/list.php:63
+#: templates/admin/pages/relations/list.php:34
+#: templates/admin/pages/taxonomies/list.php:30
+msgid "Edit"
+msgstr "Редактировать"
+
+#: templates/admin/pages/options-pages/delete-dialog.php:3
+msgid "Delete page"
+msgstr ""
+
+#: templates/admin/pages/options-pages/delete-dialog.php:9
+msgid "Please confirm page deletion"
+msgstr ""
+
+#: templates/admin/pages/options-pages/delete-dialog.php:12
+msgid "Are you sure you want to delete this page?"
+msgstr ""
+
+#: templates/admin/pages/options-pages/delete-dialog.php:13
+msgid ""
+"If yes - please select what to do with saved options related to this page:"
+msgstr ""
+
+#: templates/admin/pages/options-pages/delete-dialog.php:23
+msgid "Left options without changes"
+msgstr ""
+
+#: templates/admin/pages/options-pages/delete-dialog.php:27
+msgid "Delete saved options"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:15
+msgid "Page title"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:16
+#: templates/admin/pages/options-pages/edit.php:37
+msgid "Set unique name for your options page"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:26
+msgid "Page slug"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:27
+msgid ""
+"Set slug for your options page. Slug should contain only letters, numbers "
+"and `-` or `_` chars. This slug also be used to store options into database"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:36
+msgid "Menu name"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:43
+msgid "Parent page"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:44
+msgid ""
+"Leave empty to create top level menu page or select a parent for current page"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:52
+#: templates/admin/pages/post-types/edit.php:183
+msgid "Menu Icon"
+msgstr "Иконка меню"
+
+#: templates/admin/pages/options-pages/edit.php:53
+#: templates/admin/pages/post-types/edit.php:184
+msgid "Icon will be visible in admin menu"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:69
+msgid "Access capability"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:70
+msgid "Select capability type to restrict access to created page"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:77
+msgid "Menu position"
+msgstr ""
+
+#: templates/admin/pages/options-pages/edit.php:78
+msgid "Select existing menu item to add page after"
+msgstr ""
+
+#: templates/admin/pages/options-pages/list.php:4
+msgid "No options pages found"
+msgstr ""
+
+#: templates/admin/pages/options-pages/list.php:11
+msgid "Page Name"
+msgstr ""
+
+#: templates/admin/pages/options-pages/list.php:12
+msgid "Page Slug (and option name)"
+msgstr ""
+
+#: templates/admin/pages/post-types/delete-dialog.php:3
+msgid "Delete post type"
+msgstr ""
+
+#: templates/admin/pages/post-types/delete-dialog.php:9
+msgid "Please confirm post type deletion"
+msgstr ""
+
+#: templates/admin/pages/post-types/delete-dialog.php:12
+msgid "Are you sure you want to delete this post type?"
+msgstr ""
+
+#: templates/admin/pages/post-types/delete-dialog.php:13
+msgid "If yes - please select what to do with created posts of this post type:"
+msgstr ""
+
+#: templates/admin/pages/post-types/delete-dialog.php:23
+msgid "Leave posts without changes"
+msgstr ""
+
+#: templates/admin/pages/post-types/delete-dialog.php:27
+msgid "Attach to another post type"
+msgstr ""
+
+#: templates/admin/pages/post-types/delete-dialog.php:31
+msgid "Delete all posts"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:15
+#: templates/admin/pages/post-types/list.php:11
+msgid "Post Type Name"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:16
+#: templates/admin/pages/taxonomies/edit.php:16
+msgid "Set unique name for your post type. Eg. `Projects`"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:26
+#: templates/admin/pages/post-types/list.php:12
+msgid "Post Type Slug"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:27
+msgid ""
+"Set slug for your post type. Slug should contain only letters, numbers and `-"
+"` or `_` chars"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:41
+msgid "Update Posts"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:42
+msgid ""
+"Check this if you already have created post of this post type and want to "
+"automatically change post type for these posts."
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:74
+#: templates/admin/pages/taxonomies/edit.php:79
+msgid "Is Public"
+msgstr "Публичное?"
+
+#: templates/admin/pages/post-types/edit.php:75
+msgid "Controls how the type is visible to authors and readers"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:82
+msgid "Exclude From Search"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:83
+msgid ""
+"Whether to exclude posts with this post type from front end search results"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:89
+msgid "Publicly Queryable"
+msgstr "Доступно публично по запросам?"
+
+#: templates/admin/pages/post-types/edit.php:90
+msgid ""
+"Whether queries can be performed on the front end as part of parse_request()"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:96
+#: templates/admin/pages/taxonomies/edit.php:94
+msgid "Show Admin UI"
+msgstr "Показывать в дешборде"
+
+#: templates/admin/pages/post-types/edit.php:97
+msgid ""
+"Whether to generate a default UI for managing this post type in the admin"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:103
+#: templates/admin/pages/taxonomies/edit.php:101
+msgid "Show in Admin Menu"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:104
+msgid "Where to show the post type in the admin menu. show_ui must be true"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:110
+#: templates/admin/pages/taxonomies/edit.php:108
+msgid "Show in Nav Menu"
+msgstr "Показывать в навигационном меню"
+
+#: templates/admin/pages/post-types/edit.php:111
+msgid "Whether post_type is available for selection in navigation menus"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:117
+#: templates/admin/pages/taxonomies/edit.php:115
+msgid "Show in Rest API"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:118
+msgid ""
+"Whether to expose this post type in the REST API. Also enable/disable "
+"Gutenberg editor for current post type"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:124
+#: templates/admin/pages/taxonomies/edit.php:122
+msgid "Register Query Var"
+msgstr "Регистрировать Query Var"
+
+#: templates/admin/pages/post-types/edit.php:125
+#: templates/admin/pages/taxonomies/edit.php:123
+msgid "Sets the query_var key for this post type"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:131
+#: templates/admin/pages/taxonomies/edit.php:129
+msgid "Rewrite"
+msgstr "Переписать"
+
+#: templates/admin/pages/post-types/edit.php:132
+msgid ""
+"Triggers the handling of rewrites for this post type. To prevent rewrites, "
+"set to false"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:138
+#: templates/admin/pages/taxonomies/edit.php:136
+msgid "Rewrite Slug"
+msgstr "Переписать slug"
+
+#: templates/admin/pages/post-types/edit.php:139
+msgid "Customize the permalink structure slug. Defaults to the post type slug"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:153
+msgid "Capability Type"
+msgstr "Тип возможности"
+
+#: templates/admin/pages/post-types/edit.php:154
+msgid "The string to use to build the read, edit, and delete capabilities"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:161
+msgid "Has Archive"
+msgstr "Имеет архив"
+
+#: templates/admin/pages/post-types/edit.php:162
+msgid "Enables post type archives"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:168
+#: templates/admin/pages/taxonomies/edit.php:151
+msgid "Hierarchical"
+msgstr "Иерархическая структура"
+
+#: templates/admin/pages/post-types/edit.php:169
+msgid "Whether the post type is hierarchical (e.g. page)"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:175
+msgid "Menu Position"
+msgstr "Положение в меню"
+
+#: templates/admin/pages/post-types/edit.php:176
+msgid "The position in the menu order the post type should appear"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:194
+msgid "Supports"
+msgstr "Поддерживает"
+
+#: templates/admin/pages/post-types/edit.php:195
+msgid "Registers support of certain feature(s) for a current post type"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:209
+msgid "Admin Columns"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:231
+msgid "Current column title. Will be shown at the top of the posts list table"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:240
+msgid "Select type of data to fill column cells"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:249
+msgid "Field Name"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:250
+msgid "Custom field name to get value from"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:266
+msgid "Taxonomy slug to get post terms from"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:282
+msgid "Custom function name to get column cell value from"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:299
+msgid "Select from existing callbacks"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:304
+msgid "Column order"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:305
+msgid "Column order. Should be a positive integer"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:314
+msgid "Text to add before column cell value"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:323
+msgid "Text to add after column cell value"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:331
+msgid "Is Sortable"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:332
+msgid "Make this column sortable"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:346
+msgid "By field"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:347
+msgid ""
+"Sort can be done only by meta field value. Please set field name to sort "
+"posts by"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:367
+msgid "Is Numeric Field"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:368
+msgid ""
+"Check this if field contain numbers. By default sorting will be alphabetical."
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:417
+msgid "Reset to defaults"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:432
+msgid "Are you sure?"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:473
+msgid "Apply"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:480
+msgid "Select one of predefined callbacks"
+msgstr ""
+
+#: templates/admin/pages/post-types/edit.php:484
+msgid "Click on callback name to paste it."
+msgstr ""
+
+#: templates/admin/pages/post-types/list.php:4
+msgid "No post types found"
+msgstr ""
+
+#: templates/admin/pages/post-types/list.php:43
+msgid "Built-in"
+msgstr ""
+
+#: templates/admin/pages/relations/delete-dialog.php:9
+msgid "Please confirm relation deletion"
+msgstr ""
+
+#: templates/admin/pages/relations/delete-dialog.php:12
+msgid "Are you sure you want to delete this posts relation?"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:16
+msgid "Set unique name for your current relation"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:22
+msgid "Parent post type"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:23
+msgid "Select main post type for current relation"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:31
+msgid "Child post type"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:32
+msgid "Select child post type for current relation"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:40
+msgid "Relation Type"
+msgstr "Тип связи"
+
+#: templates/admin/pages/relations/edit.php:41
+msgid ""
+"Select type of current relation. Read more about available relation types <a "
+"href='https://crocoblock.com/knowledge-base/articles/how-to-choose-the-"
+"needed-post-relations-and-set-them-with-jetengine-plugin/'>here</a>"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:53
+msgid "Advanced Settings"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:57
+msgid "Register controls for parent post type"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:58
+msgid "Adds meta box `Related children` to parent post type edit page"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:64
+msgid "Register controls for child post type"
+msgstr ""
+
+#: templates/admin/pages/relations/edit.php:65
+msgid "Adds meta box `Related parent` to child post type edit page"
+msgstr ""
+
+#: templates/admin/pages/relations/list.php:4
+msgid "No relations found"
+msgstr ""
+
+#: templates/admin/pages/relations/list.php:12
+msgid "Related post types"
+msgstr ""
+
+#: templates/admin/pages/relations/list.php:13
+msgid "Relation type"
+msgstr ""
+
+#: templates/admin/pages/relations/list.php:14
+msgid "Relation meta key"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:9
+msgid "Please confirm taxonomy deletion"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:12
+msgid "Are you sure you want to delete this taxonomy?"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:13
+msgid "If yes - please select what to do with created terms of this taxonomy:"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:23
+msgid "Leave terms without changes"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/delete-dialog.php:27
+msgid "Delete all terms"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:15
+#: templates/admin/pages/taxonomies/list.php:11
+msgid "Taxonomy Name"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:26
+#: templates/admin/pages/taxonomies/list.php:12
+msgid "Taxonomy Slug"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:27
+msgid ""
+"Set slug for your taxonomy. Slug should contain only letters, numbers and `-"
+"` or `_` chars"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:35
+msgid "Update Terms"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:36
+msgid ""
+"Check this if you already have created terms of this taxonomy and want to "
+"automatically change tax for these terms."
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:42
+msgid "Post Type"
+msgstr "Тип записи"
+
+#: templates/admin/pages/taxonomies/edit.php:43
+msgid "Select post types to add this taxonomy for"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:80
+msgid ""
+"Whether a taxonomy is intended for use publicly either via the admin "
+"interface or by front-end users"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:87
+msgid "Publicly queryable"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:88
+msgid "Whether the taxonomy is publicly queryable"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:95
+msgid "Whether to generate a default UI for managing this taxonomy"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:102
+msgid ""
+"Where to show the taxonomy in the admin menu. `Show Admin UI` must be enabled"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:109
+msgid ""
+"If this option is enabled this taxonomy available for selection in "
+"navigation menus"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:116
+msgid ""
+"Whether to expose this taxonomy in the REST API. Also enable/disable "
+"Gutenberg editor for current post type"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:130
+msgid ""
+"Triggers the handling of rewrites for this taxonomy. To prevent rewrites, "
+"set to false"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:137
+msgid "Customize the permalink structure slug. Defaults to the taxonomy slug"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:152
+msgid ""
+"Is this taxonomy hierarchical (have descendants) like categories or not "
+"hierarchical like tags"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/edit.php:159
+msgid "Include a description of the taxonomy"
+msgstr ""
+
+#: templates/admin/pages/taxonomies/list.php:4
+msgid "No taxonomies found"
+msgstr ""
+
+#: templates/forms/admin/components/post-field-control.php:3
+msgid "Select post property..."
+msgstr ""
+
+#: templates/forms/admin/components/post-field-control.php:4
+msgid "Post Title"
+msgstr ""
+
+#: templates/forms/admin/components/post-field-control.php:5
+msgid "Post Content"
+msgstr ""
+
+#: templates/forms/admin/components/post-field-control.php:6
+msgid "Post Excerpt"
+msgstr ""
+
+#: templates/forms/admin/components/post-field-control.php:7
+msgid "Post Meta"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:49
+msgid "Enable reCAPTCHA v3 form verification"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:54
+msgid "Add Field"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:57
+msgid "Add Submit Button"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:62
+msgid "Site Key:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:66
+msgid "Secret Key:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:73
+#, php-format
+msgid "Register reCAPTCHA v3 keys %s."
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:74
+msgid "here"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:92
+#: templates/forms/admin/form-builder.php:136
+#: templates/forms/admin/form-builder.php:211
+msgid "Label:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:98
+#: templates/forms/admin/form-builder.php:319
+msgid "Custom CSS Class:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:108
+#: templates/forms/admin/notifications.php:32
+msgid "Type:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:122
+msgid "Field Type:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:130
+msgid "Name:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:142
+msgid "Description:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:148
+msgid "Required:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:156
+msgid "Field Value:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:160
+msgid "Current Post Title"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:161
+msgid "Current Post/Page URL"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:162
+msgid "Current Post Meta"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:169
+#: templates/forms/admin/form-builder.php:188
+msgid "Meta field to get value from:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:177
+msgid "Fill Options From:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:180
+msgid "Manual Input"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:196
+msgid "Options List:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:205
+msgid "Value:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:227
+msgid "Add Option"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:236
+msgid "Calculation Formula:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:238
+msgid "Set math formula to calculate field value."
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:239
+msgid "For example:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:241
+msgid "Where:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:242
+msgid ""
+"%FIELD::quantity% - macros for form field value. \"quantity\" - is a field "
+"name to get value from"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:243
+msgid ""
+"%META::price% - macros for current post meta value. \"quantity\" - is a meta "
+"key to get value from"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:253
+msgid "Decimal Places Number:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:261
+msgid "Calculated Value Prefix:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:269
+msgid "Calculated Value Suffix:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:277
+msgid "Placeholder:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:285
+msgid "Default:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:293
+msgid "Min Value:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:301
+msgid "Max Value:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:309
+msgid "Field Visibility:"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:312
+msgid "For all"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:313
+msgid "Only for logged in users"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:314
+msgid "Only for NOT-logged in users"
+msgstr ""
+
+#: templates/forms/admin/form-builder.php:334
+#: templates/forms/admin/notifications.php:234
+msgid "Apply Changes"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:42
+msgid "Hook Name:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:51
+msgid "Mail to:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:54
+msgid "Admin email"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:55
+#: templates/forms/admin/notifications.php:79
+msgid "Email from submitted form field"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:56
+#: templates/forms/admin/notifications.php:80
+msgid "Custom email"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:61
+msgid "Email Address:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:67
+msgid "From Field:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:75
+msgid "Reply to:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:78
+msgid "Not selected"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:85
+msgid "Reply to Email Address:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:91
+msgid "Reply To Email From Field:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:99
+msgid "Post Type:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:109
+msgid "Post Status:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:119
+#: templates/forms/admin/notifications.php:133
+msgid "Fields Map:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:122
+msgid "Set meta fields names to save apropriate form fields into"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:136
+msgid "Set form fields names to to get user data from"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:139
+msgid "User Login, Email and Password fields can't be empty"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:153
+msgid "Log In User after Register:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:159
+msgid "Add User ID to form data:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:163
+msgid ""
+"Registered user ID will be added to from data. If form is filled by logged "
+"in user - current user ID will be added to form data."
+msgstr ""
+
+#: templates/forms/admin/notifications.php:168
+msgid "Subject:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:174
+msgid "From Name:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:181
+msgid "From Email Address:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:188
+msgid "Webhook URL:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:195
+msgid "Content:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:197
+msgid "Available macros:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:208
+msgid "Redirect to:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:211
+msgid "Static page"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:212
+msgid "Custom URL"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:217
+msgid "Select page:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:225
+msgid "Redirect URL:"
+msgstr ""
+
+#: templates/forms/admin/notifications.php:248
+msgid "Add Notification"
+msgstr ""
+
+#~ msgid "Post/Term Data"
+#~ msgstr "Данные записи/категории"
+
+#~ msgid "Noraml"
+#~ msgstr "Стандартный"
+
+#~ msgid "Meta Fields"
+#~ msgstr "Метаполя"
+
+#~ msgid "Select..."
+#~ msgstr "Выбрать..."
+
+#~ msgid "Clear"
+#~ msgstr "Очистить"
+
+#~ msgid "Name / ID"
+#~ msgstr "Имя / ID"
+
+#~ msgid ""
+#~ "Save as timestamp. Check this if you will need to sort or query posts by "
+#~ "date"
+#~ msgstr ""
+#~ "Сохранить как метку времени. Активируйте, если вам будет необходимо "
+#~ "сортировать или запрашивать записи по дате"
+
+#~ msgid "Options List"
+#~ msgstr "Список опций"
+
+#~ msgid "New Option"
+#~ msgstr "Новая опция"
+
+#~ msgid "Repeater Fields"
+#~ msgstr "Поля Repeater"
+
+#~ msgid "General Information"
+#~ msgstr "Общая информация"
+
+#~ msgid "Post type singular name"
+#~ msgstr "Имя типа записи в ед. числе"
+
+#~ msgid "Admin Menu text"
+#~ msgstr "Текст для дешборда"
+
+#~ msgid "Not found label"
+#~ msgstr "Текст в случае если запись не найдена"
+
+#~ msgid "Not found in trash label"
+#~ msgstr "Не найдено в корзине"
+
+#~ msgid "Override the \"Featured Image\" label"
+#~ msgstr "Текст, замещающий стандатрный для обозначения миниатюры"
+
+#~ msgid "Override the \"Set Featured Image\" label"
+#~ msgstr "Текст, замещающий стандартный для опции Установить миниатюру"
+
+#~ msgid "Override the \"Remove Featured Image\" label"
+#~ msgstr "Текст, замещающий стандартный текст опции Удалить миниатюру"
+
+#~ msgid "Override the \"Use Featured Image\" label"
+#~ msgstr "Текст, замещающий стандартный текст опции Использовать миниатюру"
+
+#~ msgid "Override the \"Insert into post\" page label"
+#~ msgstr "Текст, замещающий стандартный текст опции Вставить в запись"
+
+#~ msgid "Overrides the \"Uploaded to this post\""
+#~ msgstr "Текст, замещающий стандартный текст опции Загрузить в запись"
+
+#~ msgid "Post type slug will be used if empty"
+#~ msgstr "Если не заполнено, будет использован ярлык типа записи"
+
+#~ msgid "Post type 1 (Parent)"
+#~ msgstr "Тип поста 1 (Родительский)"
+
+#~ msgid "Post type 2 (Child)"
+#~ msgstr "Тип поста 2 (Дочерний)"
+
+#~ msgid "Add metabox to parent page"
+#~ msgstr "Добавить мета бокс на родительскую страницу"
+
+#~ msgid "Add metabox to child page"
+#~ msgstr "Добавить мета бокс на дочернюю страницу"
+
+#~ msgid "Update Item"
+#~ msgstr "Обновить элемент"
+
+#~ msgid "New Item Name"
+#~ msgstr "Имя нового элемента"
+
+#~ msgid "The popular items text"
+#~ msgstr "Текст популярных элементов"
+
+#~ msgid "The separate item with commas text"
+#~ msgstr "Текст, относящиийся к разделению элементов запятыми"
+
+#~ msgid "The add or remove items text"
+#~ msgstr "Текст, относящийся к добавлению или удалению элементов"
+
+#~ msgid "The choose from most used text used"
+#~ msgstr "Текст, относящийся к выбиранию из самых используемых, используется"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Are you sure you want to delete this item?"
+#~ msgstr "Вы уверены, что вы хотите удалить этот элемент?"
+
+#~ msgid "JetEngine Dashboard"
+#~ msgstr "Панель управления JetEngine"
+
+#~ msgid "Object"
+#~ msgstr "Объект"
+
+#~ msgid "Where"
+#~ msgstr "Где"
+
+#~ msgid "SLug"
+#~ msgstr "Slug"
+
+#~ msgid "Object 1"
+#~ msgstr "Объект 1"
+
+#~ msgid "Object 2"
+#~ msgstr "Объект 2"
+
+#~ msgid "Meta Key"
+#~ msgstr "Мета ключ"
+
+#~ msgid "Post type not exists"
+#~ msgstr "Тип поста не существует"
+
+#~ msgid "Relation not exists"
+#~ msgstr "Связь не существует"
+
+#~ msgid "Get post/page link"
+#~ msgstr "Вставить ссылку на пост/страницу"
+
+#~ msgid ""
+#~ "This field must contain date to group posts by. Works only in \"Save as "
+#~ "timestamp\" option for meta field is active"
+#~ msgstr ""
+#~ "Данное поле олжно содержать дату по которой происходит группировка "
+#~ "постов. Активируйте опцию \"Сохранить как метку времени\" для мета поля "
+#~ "чтобы использовать его значение"
+
+#~ msgid "Modules Manager"
+#~ msgstr "Менеджер виджетов"
+
+#~ msgid "List of additional JetEngine modules"
+#~ msgstr "Список дополнительных виджетов JetEngine"
+
+#~ msgid "Add New Posts Relationship"
+#~ msgstr "Добавить новую связь между записями"
+
+#~ msgid "Please specify Meta Box ID"
+#~ msgstr "Пожалуйста, укажите ID блока метаданных"
+
+#~ msgid "New meta box created!"
+#~ msgstr "Новый мета блок создан!"
+
+#~ msgid "Please specify Relation ID"
+#~ msgstr "Пожалуйста, укажите ID связи"
+
+#~ msgid "New relation created!"
+#~ msgstr "Была создана новая связь!"
+
+#~ msgid "Please specify Taxonomy ID"
+#~ msgstr "Пожалуйста, укажите ID таксономии"
+
+#~ msgid "New taxonomy created!"
+#~ msgstr "Новая таксономия создана!"
+
+#~ msgid "Please specify Post Type ID"
+#~ msgstr "Пожалуйста, укажите ID типа записи"
+
+#~ msgid "New post type created!"
+#~ msgstr "Новый тип записи создан!"
+
+#~ msgid "Posts Relations"
+#~ msgstr "Связи между записями"
+
+#~ msgid "Export skin"
+#~ msgstr "Экспортировать скин"
+
+#~ msgid "Export Settings"
+#~ msgstr "Настройки экспортирования"
+
+#~ msgid "Sample Content"
+#~ msgstr "Пример контента"
+
+#~ msgid "Add Sample Content"
+#~ msgstr "Добавить пример контента"
+
+#~ msgid "Import skin"
+#~ msgstr "Импортировать скин"
+
+#~ msgid "Import new post types, taxonomies and listing items from JSON file"
+#~ msgstr ""
+#~ "Импортировать новые типы записей, таксономий и листинги из JSON файла"
+
+#~ msgid "Choose an JetEngine skin JSON file, and add it to your website"
+#~ msgstr "Выберите JSON файл для JetEngine и добавьте его на свой сайт"
+
+#~ msgid "Imported"
+#~ msgstr "Импортировано"
+
+#~ msgid "Changelog"
+#~ msgstr "Изменения"

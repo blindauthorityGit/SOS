@@ -1,0 +1,20 @@
+.jet-listing-dynamic-terms {
+	&__icon {
+		display: inline-block;
+		&.is-svg-icon {
+			display: inline-flex;
+		}
+	}
+	&__link {
+		display: inline-block;
+	}
+	&__delimiter {
+		display: inline-block;
+	}
+	&__prefix {
+		display: inline-block;
+	}
+	&__suffix {
+		display: inline-block;
+	}
+}
